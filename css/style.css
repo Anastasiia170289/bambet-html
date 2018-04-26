@@ -567,7 +567,7 @@ body{
                   text-align: right;
                   color: #000000;
             }
-            .subscribe-email{
+            .email-background-content p{
                   font-size: 24px;
                   font-weight: 300;
                   font-style: normal;
@@ -577,6 +577,37 @@ body{
                   text-align: left;
                   color: #ffffff;
             }
+            .email-background-content{
+                width: 80%;
+                position: absolute;
+                z-index: 2;
+                bottom: 30px;
+                left: 30px;
+                padding-right: 15px;
+                padding-left: 15px;
+
+            }
+            .btn-subscribe-article .btn{
+                border-radius: 40px;
+            }
+            .btn-subscribe-article span{
+                  font-size: 14px;
+                  font-weight: bold;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1;
+                  letter-spacing: 0.3px;
+                  text-align: center;
+                  color: #cab08d;
+            }
+            .subscribe-email{
+                position: relative;
+                padding-top: 30px;
+
+
+            }
+
+
 
 
 
@@ -970,6 +1001,12 @@ body{
         }
         .subscribe-article{
             text-align: center;
+        }
+        .col-md-4 .best-2018-img{
+            display: none;
+        }
+        .col-md-4 .subscribe-email{
+            display: none;
         }
 
 
