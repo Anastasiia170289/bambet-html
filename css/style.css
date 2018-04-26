@@ -1,14 +1,14 @@
 html,
 body{
       width: 100%;
-}
+ }
 .fa-facebook-official, .fa-instagram{
       width: 21px;
       height: 18px;
       color: #535353;
       padding: 0px;
       margin: 0px;
-}
+ }
 .fa-instagram{
       position: relative;
       right: 10px;
@@ -16,8 +16,7 @@ body{
 .nav-icons{
       right: 50px;
       position: relative;
-}
-
+ }
 .nav-word {
       width: 101px;
       opacity: 0.6;
@@ -30,12 +29,12 @@ body{
       letter-spacing: 1px;
       text-align: center;
       color: black;
-}
+ }
 .nav_language{
       display: inline;
       left: 65px;
       position: relative;
-}
+ }
 .nav_language_RUS,.nav_language_UA{
       height: 10px;
       opacity: 0.6;
@@ -48,8 +47,8 @@ body{
       letter-spacing: 0.5px;
       text-align: left;
       color: #000000;
-}
-#welcomeToBambet h2{
+ }
+.welcomeToBambet h2{
       font-family: Roboto;
       font-size: 36px;
       font-weight: normal;
@@ -59,31 +58,30 @@ body{
       letter-spacing: 0.5px;
       text-align: center;
       color: #000000;
-}
-
-#examples{
+ }
+.examples{
       padding-top: 60px;
       padding-bottom: 100px;
       background-color: #f7f7f7
-}
-#images{
+ }
+.images{
       margin-left: 20px;
       margin-right: 20px;
       padding-bottom: 20px;
-}
+ }
 .background-img{
       position: relative;
       padding-left: 50px;
       padding-right: 50px;
       height: 400px
-}
+ }
 .mask{
       padding-right: 50px;
-}
+ }
 .text-slide{
       position: absolute;
       text-align: center;
-}
+ }
 .text-slide p{
       font-family: Roboto;
       font-weight: normal;
@@ -93,7 +91,7 @@ body{
       letter-spacing: 0.5px;
       text-align: center;
       color: #ffffff;
-}
+ }
 #main_content p{
       font-family: Roboto;
       font-size: 16px;
@@ -104,7 +102,7 @@ body{
       letter-spacing: 0.3px;
       text-align: left;
       color: #333333;
-}
+ }
 .example_image p{
       font-family: Roboto;
       font-size: 20px;
@@ -115,8 +113,7 @@ body{
       letter-spacing: 0.3px;
       text-align: center;
       color: #333333;
-}
-
+ }
 .main_text p{
       font-family: Roboto;
       font-size: 20px;
@@ -127,11 +124,11 @@ body{
       letter-spacing: 0.3px;
       text-align: center;
       color: #000000;
-}
+ }
 .nav_language a:hover{
       color: rgba(0, 0, 0, 0.3);
-}
- .nav_language_RUS{
+ }
+.nav_language_RUS{
       position: relative;
       left: 7px;
       float: right;
@@ -146,25 +143,20 @@ body{
       top: 5px;
       position: relative;
  }
-
-
 #carousel-example-1z{
       position: relative;
-}
-
+ }
 .navigation-main{
       position: absolute;
       z-index: 2;
       width: 100%;
-
-}
-
+ }
 .main-nav{
       width: 1440px;
       height: 60px;
       opacity: 0.9;
       background-color: #d7d7d7;
-}
+ }
 #nav-bar_menu{
       height: 54px;
       padding-bottom: 0px;
@@ -242,13 +234,13 @@ body{
       color: #535353;
       padding-top: 30px;
       padding-bottom: 30px;
-}
+ }
 .footer-address i{
    padding-right: 15px;
-}
+ }
 .footer-logo{
     padding-bottom: 35px;
-}
+ }
 .footer-facebook b{
       font-family: Roboto;
       font-size: 14px;
@@ -260,13 +252,13 @@ body{
       text-align: left;
       color: #000000;
       padding-bottom: 15px;
-}
+ }
 .footer-btn{
     padding-bottom: 10px;
-}
+ }
 .footer-btn .btn-sm{
     margin-left: 0px;
-}
+ }
 .instagram p{
       font-family: Roboto;
       font-size: 14px;
@@ -277,7 +269,7 @@ body{
       letter-spacing: 0.3px;
       text-align: left;
       color: #000000;
-}
+ }
 
                      /*Items style*/
 
@@ -298,14 +290,13 @@ body{
                   color: #333333;
                   padding-top: 15px;
             }
-
-            #MainItem{
-                position: relative;
-                margin-bottom: 90px;
+             #MainItem{
+                  position: relative;
+                  margin-bottom: 90px;
             }
             .text-button-item{
-                position: absolute;
-                z-index: 2;
+                  position: absolute;
+                  z-index: 2;
             }
             .item-text{
                   font-family: Roboto;
@@ -318,11 +309,283 @@ body{
                   text-align: center;
                   color: #ffffff;
             }
-            #page-footer-items {
-                margin-top: 100px;
+            .page-footer-items {
+                 margin-top: 100px;
             }
 
                  /* Style Items */
+
+                /* Style Item_page*/
+
+            .about-item{
+                background-color: #f7f7f7;
+                margin-top: 42px;
+                padding-top: 60px;
+                padding-bottom: 60px;
+            }
+            .about-item p{
+                font-family: Roboto;
+              font-size: 18px;
+              font-weight: normal;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1.5;
+              letter-spacing: 0.3px;
+              text-align: left;
+              color: #000000;
+            }
+
+            .col-md-3 .any-question-btn-mobile span{
+                font-family: Roboto;
+              font-size: 12px;
+              font-weight: bold;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1;
+              letter-spacing: 0.3px;
+              text-align: center;
+              color: #ffffff;
+            }
+            .section-any-question{
+                padding-top: 33px;
+                padding-bottom: 34px;
+            }
+            .how-to-order-item{
+                 background-color: #f7f7f7;
+                text-align: center;
+            }
+            .name-item{
+                  font-family: Roboto;
+                  font-size: 36px;
+                  font-weight: normal;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1;
+                  letter-spacing: 0.5px;
+                  text-align: center;
+                  color: #000000;
+                  padding-bottom: 30px;
+            }
+            .price-item{
+                  font-family: Roboto;
+                  font-size: 24px;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1;
+                  letter-spacing: 0.3px;
+                  text-align: center;
+                  color: #000000;
+                  padding-bottom: 30px;
+            }
+
+            .how-long-do-item{
+                  font-family: Roboto;
+                  font-size: 16px;
+                  font-weight: normal;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.5;
+                  letter-spacing: 0.3px;
+                  text-align: center;
+                  color: #999999;
+            }
+            .estimate-item{
+                text-align: right;
+                padding-right: 0px;
+            }
+            .estimate-item p{
+                  font-family: Roboto;
+                  font-size: 18px;
+                  font-weight: normal;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.11;
+                  letter-spacing: normal;
+                  color: #000000;
+            }
+                .page-footer-how-to-order{
+                    margin-top: 30px;
+                }
+
+
+
+                /* Style Item_page*/
+
+                /* Style Article*/
+
+            .article-header p{
+                  font-family: Roboto;
+                  font-size: 36px;
+                  font-weight: normal;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.28;
+                  letter-spacing: 0.5px;
+                  text-align: center;
+                  color: #000000;
+            }
+            .watched-section{
+                  font-family: Roboto;
+                  font-size: 14px;
+                  font-weight: normal;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1;
+                  letter-spacing: 0.3px;
+                  text-align: center;
+                  color: #999999;
+                  padding-top: 30px;
+            }
+            .devided-article{
+                padding-right: 40px;
+                padding-left: 40px;
+            }
+            .background-img-article{
+                padding-top: 33px;
+            }
+            .article-furniture-header p{
+                  font-family: Roboto;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.5;
+                  letter-spacing: 0.3px;
+                  text-align: left;
+                  color: #000000;
+            }
+            .article-furniture-header{
+                padding-top: 30px;
+            }
+
+            .article-furniture-content{
+                  font-family: Roboto;
+                  font-size: 17px;
+                  font-weight: 300;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.53;
+                  letter-spacing: 0.3px;
+                  text-align: left;
+                  color: #000000;
+            }
+            .article-advice{
+                  font-family: Roboto;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.5;
+                  letter-spacing: 0.3px;
+                  text-align: left;
+                  color: #000000;
+                  padding-top: 45px;
+            }
+            .background-advice-img{
+                padding-top: 30px;
+                padding-bottom: 30px;
+            }
+            .main-content-article{
+                  font-family: Roboto;
+                  font-size: 17px;
+                  font-weight: 300;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.53;
+                  letter-spacing: 0.3px;
+                  text-align: left;
+                  color: #000000;
+            }
+
+            .first-advice-content, .second-advice-content, .third-advice-content, .fourth-advice-content, .fifth-advice-content{
+                  font-family: Roboto;
+                  font-size: 17px;
+                  font-weight: 300;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.53;
+                  letter-spacing: 0.3px;
+                  text-align: left;
+                  color: #000000;
+
+            }
+            .second-advice-header, .first-advice-header, .third-advice-header, .fourth-advice-header, .fifth-advice-header{
+                  font-family: Roboto;
+                  font-size: 20px;
+                  font-weight: 500;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.5;
+                  letter-spacing: 0.3px;
+                  text-align: left;
+                  color: #000000;
+                  padding-bottom: 30px;
+                  padding-top: 45px;
+            }
+            .share-friends-article{
+                  font-family: Roboto;
+                  font-size: 24px;
+                  font-weight: bold;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.25;
+                  letter-spacing: 0.3px;
+                  text-align: center;
+                  color: #000000;
+                  padding-top:30px;
+                  padding-bottom: 30px;
+            }
+            .article-social-section{
+                  border-bottom: 1px solid #999999;
+                  border-top: 1px solid #999999;
+                  margin-top: 60px;
+                  margin-bottom: 60px;
+
+            }
+            .subscribe-article{
+                  font-family: Roboto;
+                  font-size: 12px;
+                  font-weight: normal;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.5;
+                  letter-spacing: 0.3px;
+                  text-align: left;
+                  color: #333333;
+            }
+            .section-subscribe{
+                padding-bottom: 60px;
+            }
+            .estimate-article{
+                  font-family: Roboto;
+                  font-size: 18px;
+                  font-weight: normal;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.11;
+                  letter-spacing: normal;
+                  text-align: right;
+                  color: #000000;
+            }
+            .subscribe-email{
+                  font-size: 24px;
+                  font-weight: 300;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.25;
+                  letter-spacing: 0.3px;
+                  text-align: left;
+                  color: #ffffff;
+            }
+
+
+
+
+
+
+
+
+                /* Style Article*/
 
 
 
@@ -396,7 +659,7 @@ body{
 
                      /* Style Items */
 
-    #images img{
+    .images img{
             width: 100%;
     }
     .btn-block{
@@ -522,6 +785,198 @@ body{
         padding-right: 15px;
     }
 
+    /* Style Item_page*/
+
+    .order-button{
+        background-color: #cab08d;
+        height: 56px;
+    }
+    .order-button p{
+          height: 18px;
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 0.3px;
+          text-align: center;
+    }
+
+    .order-button a{
+          display: block;
+          width: 100%;
+          color: #ffffff;
+    }
+    .order-button a:hover{
+        color: white;
+    }
+     .order-color-cloth{
+        display: none;
+    }
+     .order-color-cloth-mobile-version a{
+         width: 48px;
+         height: 48px;
+         display: block;
+         text-align: center;
+
+
+     }
+     .different-color .col-3{
+         padding-right: 0px;
+     }
+    .order-color-text-mobile{
+        height: 28px;
+          font-family: Roboto;
+          font-size: 20px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.4;
+          letter-spacing: 0.3px;
+          text-align: center;
+          color: #000000;
+        margin-bottom: 0px;
+    }
+    .about-item{
+        margin-top: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .about-item p{
+        font-size: 14px;
+    }
+    .any-question-text{
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          text-align: center;
+          color: #ffffff;
+    }
+    .col-md-3 .any-question-btn{
+        display: none;
+
+    }
+    .col-md-3 .any-question-btn-mobile{
+          border-radius: 40px;
+    }
+    .col-md-3 .any-question-btn-mobile span{
+          font-family: Roboto;
+          font-size: 12px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 0.3px;
+          text-align: center;
+          color: #333333;
+    }
+    .any-question-form{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .name-item{
+        padding-top: 30px;
+        font-size: 24px;
+}
+        .how-long-do-item{
+            padding-top: 15px;
+            font-size: 12px;
+        }
+        .btn-item{
+            width: 100%;
+        }
+        .estimate-item{
+            text-align: center;
+        }
+        .estimate-item p{
+            font-size: 14px;
+        }
+        .star-rating-5{
+            text-align: center;
+        }
+        .star-rating{
+            padding-top: 60px;
+        }
+        #button-order{
+            display: none;
+        }
+
+
+    /* Style Item_page*/
+
+    /* Style Article*/
+        .article-furniture-header{
+            padding-top: 15px;
+        }
+
+        .article-header p{
+            font-size: 24px;
+        }
+        .watched-section{
+            font-size: 12px;
+            padding-top: 25px;
+        }
+        .devided-article{
+                padding-right: 30px;
+                padding-left: 30px;
+            }
+        .background-img-article{
+            padding-top: 30px;
+        }
+        .article-furniture-content{
+            font-size: 14px;
+        }
+        .article-advice{
+            font-size: 16px;
+            padding-top: 30px;
+        }
+        .background-advice-img{
+            padding-top: 15px;
+        }
+        .main-content-article{
+            font-size: 14px;
+        }
+        .first-advice-header, .second-advice-header, .third-advice-header, .fourth-advice-header, .fifth-advice-header{
+                font-size: 16px;
+                padding-top: 30px;
+                padding-bottom: 15px;
+            }
+        .first-advice-content, .second-advice-content, .third-advice-content, .fourth-advice-content, .fifth-advice-content{
+            font-size: 14px;
+        }
+        .article-social-section{
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        .share-friends-article{
+            font-size: 24px;
+            padding-bottom: 20px;
+        }
+        .section-subscribe{
+            padding-bottom: 30px;
+        }
+        .estimate-article{
+            font-size: 20px;
+            text-align: center;
+        }
+        .btn-article-subscribe{
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .subscribe-article{
+            text-align: center;
+        }
+
+
+
+
+    /* Style Article*/
+
 
 
 }
@@ -557,5 +1012,81 @@ body{
     }
 
     /* Style Items*/
+
+    /* Style Item_page*/
+
+    .order-button{
+        display: none;
+    }
+    .order-color-text{
+      height: 20px;
+      font-family: Roboto;
+      font-size: 24px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 0.83;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+        margin-bottom: 0px;
+        margin-top: 12px;
+        margin-right: 30px;
+    }
+.order-color-cloth a{
+      width: 48px;
+      height: 48px;
+      margin-right:18px;
+}
+.order-color-cloth{
+    margin-top: 42px;
+}
+.order-color-cloth-mobile-version{
+    display: none;
+}
+.col-md-3 .any-question-btn-mobile{
+    display: none;
+}
+.name-item{
+    padding-top: 105px;
+}
+.how-long-do-item{
+    padding-top: 30px;
+}
+.star-rating{
+    padding-top: 30px;
+
+
+}
+.star-rating-5{
+    text-align: left;
+}
+.btn-order-item{
+    bottom: 90%;
+    left: 75%;
+}
+.btn-order-item span{
+     font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1;
+      letter-spacing: 0.3px;
+      text-align: center;
+      color: #ffffff;
+}
+#carousel-item-1z{
+    position: relative;
+}
+
+
+    /* Style Item_page*/
+
+    /* Style Article*/
+    .article-header{
+        padding-top: 30px;
+    }
+    /* Style Article*/
+
 }
 
