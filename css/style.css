@@ -356,6 +356,33 @@ body{
               text-align: left;
               color: #000000;
             }
+            #carousel-prev-icon-item-page{
+                background-image: url(../img/arrow.svg);
+                top: 5%;
+                position: relative;
+                right:30%;
+}
+
+            #carousel-next-icon-item-page {
+                background-image: url(../img/arrow-copy.svg);
+                top: 5%;
+                position: relative;
+                left: 30%;
+            }
+            .any-question-text{
+                  font-family: Roboto;
+                  font-size: 16px;
+                  font-weight: normal;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.5;
+                  letter-spacing: 0.3px;
+                  text-align: right;
+                  color: #ffffff;
+            }
+            .col-md-3 .any-question-btn{
+                border-radius: 40px;
+            }
 
             .col-md-3 .any-question-btn-mobile span{
                 font-family: Roboto;
