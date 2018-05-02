@@ -17,6 +17,27 @@ body{
       right: 50px;
       position: relative;
  }
+
+#carousel-prev-icon{
+    background-image: url(../img/arrow.svg);
+    top: 5%;
+    position: relative;
+    right:30%;
+}
+
+#carousel-next-icon{
+    background-image: url(../img/arrow-copy.svg);
+    top: 5%;
+    position: relative;
+    left: 30%;
+}
+
+#carousel-indicator1, #carousel-indicator2, #carousel-indicator3{
+    width: 16px;
+    height: 16px;
+    border: 1px solid white;
+}
+
 .nav-word {
       width: 101px;
       opacity: 0.6;
@@ -145,6 +166,7 @@ body{
  }
 #carousel-example-1z{
       position: relative;
+      overflow: hidden;
  }
 .navigation-main{
       position: absolute;
@@ -774,6 +796,16 @@ body{
           letter-spacing: 0.3px;
           text-align: center;
           color: #000000;
+          margin-bottom: 0px;
+          padding-bottom: 8px;
+    }
+    .footer-navbar li{
+        padding-bottom: 0px;
+    }
+    .page-footer .info{
+        opacity: 0.3;
+        padding-bottom: 8px;
+        margin-bottom: 0px;
     }
     .page-footer .footer-chapter li{
         color: #333333;
@@ -797,6 +829,7 @@ body{
     }
     .footer-address{
         margin-bottom: 60px;
+        text-align: center;
     }
     .footer-chapter{
          margin-bottom: 60px;
@@ -804,9 +837,12 @@ body{
     .page-footer .information a{
         line-height: 2.67;
     }
+    .footer-address ul{
+        width: 65%;
+        margin-left: 25%;
+    }
     .footer-address li {
         text-align: left;
-        padding-left: 15%;
     }
     .footer-logo{
         text-align: center;
@@ -1011,11 +1047,17 @@ body{
 
 
 
-
     /* Style Article*/
 
 
 
+}
+
+@media screen and (max-width: 640px){
+    .footer-address ul{
+        margin-left: 15%;
+        width: 80%;
+    }
 }
 
 
