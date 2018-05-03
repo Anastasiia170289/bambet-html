@@ -617,7 +617,7 @@ body{
                   color: #000000;
             }
             .email-background-content p{
-                  font-size: 24px;
+                  padding-top: 20px;
                   font-weight: 300;
                   font-style: normal;
                   font-stretch: normal;
@@ -627,14 +627,18 @@ body{
                   color: #ffffff;
             }
             .email-background-content{
-                width: 80%;
+                padding-left: 20px;
+                padding-right: 20px;
                 position: absolute;
                 z-index: 2;
-                bottom: 30px;
-                left: 30px;
-                padding-right: 15px;
-                padding-left: 15px;
+                text-align: center;
+                height: inherit;
 
+
+
+            }
+            .btn-subscribe-article{
+                padding-top: 20px;
             }
             .btn-subscribe-article .btn{
                 border-radius: 40px;
@@ -650,11 +654,54 @@ body{
                   color: #cab08d;
             }
             .subscribe-email{
+                height: 223px;
+                margin-top: 30px;
+                background-image: url(../img/mail.svg);
+                background-repeat: no-repeat;
+                text-align: center;
                 position: relative;
-                padding-top: 30px;
-
-
+                background-size: 100%;
             }
+            .border-article-line hr{
+                margin-bottom: 45px;
+                margin-top: 30px;
+            }
+            .also-interesting-article{
+                  font-family: Roboto;
+                  font-size: 16px;
+                  font-weight: normal;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1;
+                  letter-spacing: 0.3px;
+                  text-align: left;
+                  color: #999999;
+            }
+
+            .section-comment-zone{
+                height:580px;
+            }
+            .button-social-comment{
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            .exhibition-melburn-article{
+                border: solid 1px rgba(0, 0, 0, 0.1);
+            }
+            .exhibition-melburn-article p{
+                  font-family: Roboto;
+                  font-size: 14px;
+                  font-weight: bold;
+                  font-style: normal;
+                  font-stretch: normal;
+                  line-height: 1.5;
+                  letter-spacing: 0.3px;
+                  text-align: left;
+                  color: #000000;
+                  padding: 10px 20px 15px 20px;
+            }
+
+
 
 
 
@@ -897,86 +944,86 @@ body{
           text-align: center;
     }
 
-    .order-button a{
-          display: block;
-          width: 100%;
-          color: #ffffff;
-    }
-    .order-button a:hover{
-        color: white;
-    }
-     .order-color-cloth{
-        display: none;
-    }
-     .order-color-cloth-mobile-version a{
-         width: 48px;
-         height: 48px;
-         display: block;
-         text-align: center;
+        .order-button a{
+              display: block;
+              width: 100%;
+              color: #ffffff;
+        }
+        .order-button a:hover{
+            color: white;
+        }
+         .order-color-cloth{
+            display: none;
+        }
+         .order-color-cloth-mobile-version a{
+             width: 48px;
+             height: 48px;
+             display: block;
+             text-align: center;
 
 
-     }
-     .different-color .col-3{
-         padding-right: 0px;
-     }
-    .order-color-text-mobile{
-        height: 28px;
-          font-family: Roboto;
-          font-size: 20px;
-          font-weight: normal;
-          font-style: normal;
-          font-stretch: normal;
-          line-height: 1.4;
-          letter-spacing: 0.3px;
-          text-align: center;
-          color: #000000;
-        margin-bottom: 0px;
-    }
-    .about-item{
-        margin-top: 30px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .about-item p{
-        font-size: 14px;
-    }
-    .any-question-text{
-          font-family: Roboto;
-          font-size: 16px;
-          font-weight: normal;
-          font-style: normal;
-          font-stretch: normal;
-          line-height: 1.5;
-          letter-spacing: 0.3px;
-          text-align: center;
-          color: #ffffff;
-    }
-    .col-md-3 .any-question-btn{
-        display: none;
+         }
+         .different-color .col-3{
+             padding-right: 0px;
+         }
+        .order-color-text-mobile{
+            height: 28px;
+              font-family: Roboto;
+              font-size: 20px;
+              font-weight: normal;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1.4;
+              letter-spacing: 0.3px;
+              text-align: center;
+              color: #000000;
+            margin-bottom: 0px;
+        }
+        .about-item{
+            margin-top: 30px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .about-item p{
+            font-size: 14px;
+        }
+        .any-question-text{
+              font-family: Roboto;
+              font-size: 16px;
+              font-weight: normal;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1.5;
+              letter-spacing: 0.3px;
+              text-align: center;
+              color: #ffffff;
+        }
+        .col-md-3 .any-question-btn{
+            display: none;
 
+        }
+        .col-md-3 .any-question-btn-mobile{
+              border-radius: 40px;
+        }
+        .col-md-3 .any-question-btn-mobile span{
+              font-family: Roboto;
+              font-size: 12px;
+              font-weight: bold;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1;
+              letter-spacing: 0.3px;
+              text-align: center;
+              color: #333333;
+        }
+        .any-question-form{
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        .name-item{
+            padding-top: 30px;
+            font-size: 24px;
     }
-    .col-md-3 .any-question-btn-mobile{
-          border-radius: 40px;
-    }
-    .col-md-3 .any-question-btn-mobile span{
-          font-family: Roboto;
-          font-size: 12px;
-          font-weight: bold;
-          font-style: normal;
-          font-stretch: normal;
-          line-height: 1;
-          letter-spacing: 0.3px;
-          text-align: center;
-          color: #333333;
-    }
-    .any-question-form{
-        margin-bottom: 30px;
-        margin-top: 30px;
-    }
-    .name-item{
-        padding-top: 30px;
-        font-size: 24px;
-}
         .how-long-do-item{
             padding-top: 15px;
             font-size: 12px;
@@ -1065,11 +1112,91 @@ body{
         .subscribe-article{
             text-align: center;
         }
-        .col-md-4 .best-2018-img{
+        .col-md-3 .best-2018-img{
             display: none;
         }
-        .col-md-4 .subscribe-email{
+        .col-md-3 .subscribe-email{
             display: none;
+        }
+        .col-md-3 .border-article-line{
+            display: none;
+        }
+        .also-interesting-article {
+            font-size: 24px;
+            line-height: 1.25;
+            text-align: center;
+            color: #000000;
+        }
+        .social-comment-underline-article hr{
+            margin-top: 35px;
+            margin-bottom: 30px;
+        }
+        .exhibition-melburn-article p{
+              font-size: 16px;
+              line-height: 1.25;
+              padding: 15px 40px 20px 40px;
+        }
+        .mobile-version-underline{
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+        .the-best-2018{
+            padding-bottom: 30px;
+        }
+        .mobile-version-subscribe-section{
+            background-image: url(../img/mail.svg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            position: relative;
+            height: 238px;
+            width: 100%;
+        }
+        .exhibition-melburn-article{
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+        #sidebar-article-mobile-version {
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+
+        .mobile-version-subscribe-content{
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+        .mobile-version-subscribe-content p{
+            padding-top: 20px;
+            font-family: Roboto;
+              font-size: 24px;
+              font-weight: 300;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1.25;
+              letter-spacing: 0.3px;
+              text-align: center;
+              color: #ffffff;
+        }
+        .btn-mobile-version-article{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .btn-mobile-version-article .btn{
+            border-radius: 40px;
+        }
+        .btn-mobile-version-article .btn span{
+              font-family: Roboto;
+              font-size: 14px;
+              font-weight: bold;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: 1;
+              letter-spacing: 0.3px;
+              text-align: center;
+              color: #cab08d;
         }
 
 
@@ -1077,6 +1204,31 @@ body{
     /* Style Article*/
 
 
+
+}
+@media screen and (max-width: 1149px){
+    .email-background-content p{
+        padding-top: 5px;
+    }
+    .btn-subscribe-article{
+        padding-top: 15px;
+    }
+
+}
+@media screen and (max-width: 1069px){
+    .btn-subscribe-article{
+        padding-top: 5px;
+    }
+    .email-background-content .input-form-article{
+        margin-top: 0px;
+    }
+    .btn-subscribe-article span{
+        font-size: 10px;
+    }
+    .email-background-content p{
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
 
 }
 
@@ -1192,6 +1344,28 @@ body{
     .article-header{
         padding-top: 30px;
     }
+    #article-main-content{
+                background-color: #f7f7f7;
+            }
+    .social-comment-underline-article{
+        display: none;
+    }
+    .social-comment-zone-article{
+        margin-bottom: 81px;
+    }
+    .sidebar-article{
+        margin-left: 50px;
+    }
+    .mobile-version-underline{
+        display: none;
+    }
+    .the-best-2018{
+        display: none;
+    }
+    .mobile-version-subscribe-section{
+        display: none;
+    }
+
     /* Style Article*/
 
 }

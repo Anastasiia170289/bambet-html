@@ -100,7 +100,6 @@
 
             <!-- Main Navigation-->
 
-           <!--Main layout-->
 
            <!--Main layout-->
             <main class="mt-3">
@@ -116,7 +115,7 @@
                         <img src="img/mask-copy.jpg" class="img-fluid" alt="background-img-article">
                     </div>
                 </div>
-                <div class="container-fluid article-main-content" style="background-color: #f7f7f7">
+                <div class="container-fluid" id="article-main-content">
                     <div class="row">
                         <div class="col-md-1"></div>
                         <div class="col-md-7" style="background-color: white">
@@ -268,18 +267,33 @@
                        </div>
                    </div>
                             </div>
+                            <div class="social-comment-zone-article">
+                                   <div class="section-comment-zone" style="background-color: #535353">
+
+                                   </div>
+                                <div class="button-social-comment">
+                                    <button type="button" class="btn  btn-block btn-primary waves-light"><span>Загрузить еще 10 комментариев</span></button>
+                                </div>
+                            </div>
+
+                            <!--Only mobile version-->
+
+                            <div class="social-comment-underline-article">
+                                <hr style="height: 1px; color: #999999;">
+                            </div>
+
+                            <!--Only mobile version-->
+
                             </div>
                     
-                        <div class="col-md-4">
+                        <div class="col-md-3 sidebar-article" id="sidebar-article-mobile-version">
                             <div class="best-2018-img" style="text-align: center; padding-top: 76px">
-                                <img src="img/group-19.jpg" class="img-fluid" alt="best-2018-img">
+                                <img src="img/group-19.jpg" class="img-fluid" alt="best-2018-img" style="width: 100%">
                             </div>
-                            <div class="subscribe-email">
-                                <div class="email-background-img" style="text-align: center">
-                                <img src="img/mail.svg" class="imf-fluid">
-                                </div>
+                            <div class="subscribe-email" style="text-align: center">
+
                                 <div class="email-background-content">
-                                <p>
+                                <p class="h4-responsive">
                                     <b>Подпишитесь</b>
                                     на нашу рассылку!
                                 </p>
@@ -287,17 +301,166 @@
                                      <input mdbInputDirective placeholder="email" type="text" id="form58" class="form-control">
                                 </div>
                                 <div class="btn-subscribe-article">
-                                    <button type="button" class="btn btn-white waves-light" mdbWavesEffect>ПОДПИСАТЬСЯ</button>
+                                    <button type="button" class="btn  btn-block btn-white waves-light"><span>ПОДПИСАТЬСЯ</span></button>
                                 </div>
                                 </div>
                             </div>
+                            <div class="border-article-line">
+                                <hr style="height: 1px; color: #d8d8d8;">
+                            </div>
+                            <p class="also-interesting-article">Вам также будет интересно:</p>
+                            <div class="exhibition-melburn-article" style="background-color: white; margin-bottom: 15px">
+                                <img src="img/mask.jpg" class="img-fluid" alt="melburn-img" style="width: 100%">
+                                <p>
+                                    Мебельная выставка в Кельне: «Togo» и другие. Мебельная выставка в Кельне: «Togo».
+                                </p>
+                            </div>
+                            <div class="exhibition-melburn-article" style="background-color: white; margin-bottom: 15px">
+                                <img src="img/mask-2.jpg" class="img-fluid" alt="melburn-img" style="width: 100%">
+                                <p>
+                                    Мебельная выставка в Кельне: «Togo» и другие. Мебельная выставка в Кельне: «Togo».
+                                </p>
+                            </div>
+                            <div class="exhibition-melburn-article" style="background-color: white; margin-bottom: 15px">
+                                <img src="img/mask-3.jpg" class="img-fluid" alt="melburn-img" style="width: 100%">
+                                <p>
+                                    Мебельная выставка в Кельне: «Togo» и другие. Мебельная выставка в Кельне: «Togo».
+                                </p>
+                            </div>
+
+
+                            <!--Mobile version-->
+                            <div class="mobile-version-underline" style="padding-left: 15px; padding-right: 15px">
+                                <hr style="height: 1px; color: #999999;">
+                            </div>
+                            <div class="the-best-2018" style="padding-left: 15px; padding-right: 15px">
+                                <img src="img/group-19.jpg" class="img-fluid" alt="the-best-2018-img" style="width: 100%">
+                            </div>
+                            <div class="mobile-version-subscribe-section">
+                                <div class="mobile-version-subscribe-content">
+                                <p>
+                                    <b>Подпишитесь</b>
+                                    <br>на нашу рассылку!
+                                </p>
+                                <div class="md-form input-mobile-version-article">
+                                     <input mdbInputDirective placeholder="Email" type="text"  class="form-control">
+                                </div>
+                                <div class="btn-mobile-version-article">
+                                    <button type="button" class="btn  btn-block btn-white waves-light"><span>ПОДПИСАТЬСЯ</span></button>
+                                </div>
+                                </div>
+
+                            </div>
+
+                            <!--Mobile version-->
+
                         </div>
                 </div>
                     </div>
 
-
-
             </main>
+
+ <!--Footer-->
+
+ <footer class="page-footer">
+        <!-- Footer links-->
+     <div class="container-fluid">
+         <div class="row d-flex">
+             <div class="col-md-3 footer-address">
+                 <ul>
+                     <p class="footer-logo"><a href="#"><img src="img/Bambet_logo_1.svg" class="img-fluid"></a></p>
+                     <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Кременчук, вул.Троїцька,61/52</span></li>
+                     <li><i class="fa fa-phone" aria-hidden="true"></i><span>+38 (068) 011 35 35</span></li>
+                     <li><i class="fa fa-envelope" aria-hidden="true"></i><span>info@bambet.com.ua</span></li>
+                </ul>
+             </div>
+
+         <!--Mobile version only-->
+             <div class="col-md-3 follow-us">
+                 <p><b>СЛІДКУЙТЕ ЗА НАМИ:</b></p>
+                 <div class="footer-social-network">
+                     <div class="footer-fb"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
+                     <div class="footer-instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                 </div>
+             </div>
+             <div class="col-md-3 footer-navbar">
+                 <ul class="footer-chapter">
+                     <p><b>РОЗДІЛИ</b></p>
+                     <li><a href="#" style=" color: #333333">Вироби</a></li>
+                     <li><a href="#" style=" color: #333333">Про нас</a></li>
+                     <li><a href="#" style=" color: #333333">Блог</a></li>
+                     <li><a href="#" style=" color: #333333">Showroom</a></li>
+                     <li><a href="#" style=" color: #333333">Контакти</a></li>
+                 </ul>
+             </div>
+         <!--Mobile version only-->
+             <div class="col-md-3">
+                 <ul class="information">
+                     <p class="info"><b>ІНФОРМАЦІЯ</b></p>
+                     <li><a href="#"> Замовлення виробу</a></li>
+                     <li><a href="#"> Оплата і доставка</a></li>
+                     <li><a href="#"> Гарантія і сервіс</a></li>
+                     <li><a href="#"> Умови придбання</a></li>
+                     <li><a href="#"> Обмін та повернення</a></li>
+                </ul>
+             </div>
+             <div class="col-md-3 facebook">
+                 <p class="footer-facebook"><b>FACEBOOK</b></p>
+                 <div class="footer-btn">
+                 <button type="button" class="btn btn-primary btn-sm waves-light" mdbRippleRadius><i class="fa fa-thumbs-o-up mr-1" aria-hidden="true"></i>Like</button>
+                 <button type="button" class="btn btn-primary btn-sm waves-light" mdbRippleRadius>Submit</button>
+                 </div>
+                 <p>
+                     Подобається 3,6 млн людям. Приєднуйтесь та будьте першими поміж своїх друзів
+                 </p>
+             </div>
+             <div class="col-md-3 instagram">
+                 <p><b>INSTAGRAM</b></p>
+                 <div class="instagram-photo">
+                 <div class="row mb-2 pl-2">
+                     <div class="col-md-3 photo1 pr-0 pl-2">
+                     <img src="img/1-copy.jpg" class="img-fluid" alt="photo1">
+                     </div>
+                     <div class="col-md-3 photo2 pr-0 pl-2">
+                     <img src="img/2-copy.jpg" class="img-fluid" alt="photo2">
+                     </div>
+                     <div class="col-md-3 photo3 pr-0 pl-2">
+                     <img src="img/3-copy-2.jpg" class="img-fluid"  alt="photo3">
+                     </div>
+                 </div>
+                     <div class="row pl-2">
+                         <div class="col-md-3 photo4 pr-0 pl-2">
+                     <img src="img/1-copy.jpg" class="img-fluid" alt="photo4">
+                         </div>
+                         <div class="col-md-3 photo5 pr-0 pl-2" >
+                     <img src="img/2-copy.jpg" class="img-fluid" alt="photo5">
+                         </div>
+                         <div class="col-md-3 photo6 pr-0 pl-2">
+                     <img src="img/3-copy-2.jpg" class="img-fluid" alt="photo6">
+                         </div>
+                 </div>
+                 </div>
+             </div>
+
+
+         </div>
+     </div>
+
+        <!--Footer links-->
+
+        <!--Copyright-->
+
+    <div class="footer_copyright" style="text-align: center">
+        <div class="container-fluid">
+           Copyright © 2018 bambet. Використання матеріалів без письмової згоди адміністрації сайту заборонено
+        </div>
+    </div>
+    <!--Copyright-->
+
+ </footer>
+
+        <!--Footer-->
+
 
 </body>
 </html>
