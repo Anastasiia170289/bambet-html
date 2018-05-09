@@ -2,6 +2,7 @@ html,
 body{
       width: 100%;
  }
+
 .fa-facebook-official, .fa-instagram{
       width: 21px;
       height: 18px;
@@ -749,7 +750,78 @@ body{
          margin: 0px;
     }
 
-    /* Style thanks_page*/
+
+             /* Style thanks_page*/
+
+
+            /* Style about_us*/
+
+    .list-style-dash{
+        margin-bottom: 0px;
+    }
+
+    .list-style-dash li{
+        list-style-type: none;
+        position: relative;
+        padding-bottom: 16px;
+
+
+    }
+     .list-style-dash li:before{
+        content: "\2014";
+        color: #cab08d;
+        position: absolute;
+         left: -35px;
+    }
+     .content-about-us{
+         margin-top: 100px;
+
+     }
+     .content-about-us p{
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 300;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          text-align: left;
+          color: #000000;
+     }
+     .we-know p{
+          font-size: 20px;
+         text-align: center;
+     }
+
+     .we-know{
+         margin-bottom: 60px;
+     }
+     .about-us-second-block-content {
+         margin-bottom: 100px;
+     }
+
+     .about-us-first-block-content h2, .about-us-second-block-content h2{
+           font-family: Roboto;
+          font-size: 24px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 0.3px;
+          text-align: left;
+          color: #000000;
+     }
+
+
+
+
+
+
+
+     /* Style about_us*/
+
+
+
 
 
 
@@ -759,7 +831,6 @@ body{
     .navigation-main{
         height: 81px;
     }
-
     .nav_logo{
             display: none;
     }
@@ -776,6 +847,8 @@ body{
     .instagram{
             display: none;
     }
+
+
 
                      /* Style Items */
                 .navigation{
@@ -932,9 +1005,15 @@ body{
          letter-spacing: 0.3px;
          text-align: center;
     }
+    .footer-chapter{
+        padding-left: 0px;
+    }
+    .information{
+        padding-left: 0px;
+    }
     .follow-us{
          margin-bottom: 60px;
-         margin-left: 35px;
+
     }
     .footer-address ul{
         margin-bottom: 0px;
@@ -950,8 +1029,8 @@ body{
         line-height: 2.67;
     }
     .footer-address ul{
-        width: 65%;
-        margin-left: 25%;
+        width: 100%;
+        margin-left: 23%;
     }
     .footer-address li {
         text-align: left;
@@ -1269,6 +1348,53 @@ body{
 
     /* Style thanks_page*/
 
+    /* Style about_us*/
+
+    .content-about-us{
+        margin-top: 30px;
+    }
+    .header-about-us{
+          margin-bottom: 30px;
+          font-family: Roboto;
+          font-size: 24px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.25;
+          letter-spacing: 0.3px;
+          text-align: center;
+          color: #000000;
+    }
+    .we-know{
+        margin-bottom: 30px;
+    }
+    .about-us-second-block-content{
+         margin-bottom: 60px;
+     }
+    .about-us-first-block-content h2, .about-us-second-block-content h2{
+        line-height: 1.25;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .left-hr{
+        display: none;
+    }
+    .content-about-us p{
+        font-size: 14px;
+    }
+    .about-us-page-img2 img, .about-us-page-img1 img{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .list-style-dash li{
+        font-size: 14px;
+    }
+
+
+
+
+    /* Style about_us*/
+
 
 
 }
@@ -1300,8 +1426,8 @@ body{
 
 @media screen and (max-width: 640px){
     .footer-address ul{
-        margin-left: 15%;
-        width: 80%;
+        margin-left: 12%;
+        width: 90%;
     }
 }
 
@@ -1310,6 +1436,9 @@ body{
 @media screen and (min-width: 770px) {
     .nav_brand{
              display: none;
+    }
+    .footer-logo{
+        padding-left: 35px;
     }
 
     .btn-example{
@@ -1432,7 +1561,20 @@ body{
         display: none;
     }
 
+
     /* Style Article*/
+
+    /* Style about_us*/
+
+
+    .header-about-us{
+        display: none;
+    }
+    .center-hr{
+        display: none;
+    }
+
+    /* Style about_us*/
 
 
 
