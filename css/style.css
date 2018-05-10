@@ -850,6 +850,72 @@ body{
     /* Style 404*/
 
 
+    /* Style showroom*/
+
+    .main-content-showroom p{
+          font-family: Roboto;
+          font-size: 20px;
+          font-weight: 300;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          text-align: center;
+          color: #000000;
+          margin-bottom: 60px;
+    }
+
+
+    .background-content-showroom h2{
+          font-family: Roboto;
+          font-size: 24px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 0.3px;
+          text-align: left;
+          color: #ffffff;
+          margin-top: 45px;
+          margin-bottom: 30px;
+    }
+    .background-content-showroom li{
+          list-style-type: none;
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          color: #ffffff;
+    }
+    .background-content-showroom p{
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          color: #ffffff;
+    }
+    .button-showroom{
+
+          border: solid 2px;
+    }
+    #background-img-showroom{
+        position: relative;
+    }
+
+    .background-content-showroom{
+        position: absolute;
+    }
+
+
+    /* Style showroom*/
+
+
 
 
 
@@ -1459,6 +1525,94 @@ body{
 
             /* Style 404*/
 
+            /* Style showroom*/
+
+    .showroom-nav{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.25;
+        letter-spacing: 0.3px;
+        text-align: center;
+        color: #000000;
+    }
+    .main-content-showroom p{
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+
+    .background-content-showroom h2{
+        font-size: 20px;
+        margin-top: 44px;
+    }
+   .background-showroom-address{
+       display: none;
+   }
+   .img-showroom{
+       height: 147px;
+   }
+   .img-showroom img{
+       height: 100%;
+       width: 100%
+   }
+   #section-container{
+       padding-left: 0px;
+       padding-right: 0px;
+   }
+   .mobile-version-showroom-address p{
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          text-align: center;
+          color: #000000;
+          margin-top: 30px;
+          margin-bottom: 15px;
+   }
+   .mobile-version-showroom-address a{
+          opacity: 0.5;
+          font-family: Roboto;
+          font-size: 12px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 0.3px;
+          color: #333333;
+          text-decoration: underline;
+   }
+   .mobile-version-showroom-address td{
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          text-align: left;
+          color: #000000;
+          list-style: none;
+          margin-bottom: 30px;
+
+   }
+
+   .mobile-version-showroom-address{
+       margin-bottom: 60px;
+   }
+
+
+
+            /* Style showroom*/
+
+
 
 
 }
@@ -1653,6 +1807,38 @@ body{
     }
 
     /* Style 404*/
+
+    /* Style showroom*/
+
+    .content-showroom{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .showroom-nav{
+        display: none;
+    }
+
+    .img-showroom{
+        height: 305px;
+
+    }
+    .img-showroom img{
+        height: 100%;
+
+    }
+
+    .mobile-version-showroom-address{
+        display: none;
+    }
+    #section-container{
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+
+
+
+            /* Style showroom*/
+
 
 
 
