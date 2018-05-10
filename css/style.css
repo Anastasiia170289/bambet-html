@@ -864,8 +864,6 @@ body{
           color: #000000;
           margin-bottom: 60px;
     }
-
-
     .background-content-showroom h2{
           font-family: Roboto;
           font-size: 24px;
@@ -907,13 +905,67 @@ body{
     #background-img-showroom{
         position: relative;
     }
-
     .background-content-showroom{
         position: absolute;
     }
 
 
     /* Style showroom*/
+
+    /* Style contacts*/
+    .nav-table-contacts{
+        border: 2px solid #cab08d;
+        padding: 30px;
+    }
+    .nav-table-contacts a{
+          font-family: Roboto;
+          font-size: 12px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 0.5px;
+          color: #000000;
+          text-decoration: underline;
+          padding-top: 15px;
+    }
+
+    .nav-table-contacts h2{
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 0.93;
+          letter-spacing: 0.5px;
+          text-align: left;
+          color: #cab08d;
+          margin-bottom: 15px;
+    }
+    .nav-table-contacts p{
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          text-align: left;
+          color: #000000;
+    }
+    .nav-table-contacts td{
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          text-align: left;
+          color: #999999;
+    }
+
+    /* Style contacts*/
 
 
 
@@ -1544,27 +1596,25 @@ body{
         font-size: 14px;
         margin-bottom: 30px;
     }
-
-
     .background-content-showroom h2{
         font-size: 20px;
         margin-top: 44px;
     }
-   .background-showroom-address{
+    .background-showroom-address{
        display: none;
    }
-   .img-showroom{
+    .img-showroom{
        height: 147px;
    }
-   .img-showroom img{
+    .img-showroom img{
        height: 100%;
        width: 100%
    }
-   #section-container{
+    #section-container{
        padding-left: 0px;
        padding-right: 0px;
    }
-   .mobile-version-showroom-address p{
+    .mobile-version-showroom-address p{
           font-family: Roboto;
           font-size: 16px;
           font-weight: normal;
@@ -1577,7 +1627,7 @@ body{
           margin-top: 30px;
           margin-bottom: 15px;
    }
-   .mobile-version-showroom-address a{
+    .mobile-version-showroom-address a{
           opacity: 0.5;
           font-family: Roboto;
           font-size: 12px;
@@ -1589,7 +1639,7 @@ body{
           color: #333333;
           text-decoration: underline;
    }
-   .mobile-version-showroom-address td{
+    .mobile-version-showroom-address td{
           font-family: Roboto;
           font-size: 16px;
           font-weight: normal;
@@ -1603,14 +1653,43 @@ body{
           margin-bottom: 30px;
 
    }
-
-   .mobile-version-showroom-address{
+    .mobile-version-showroom-address{
        margin-bottom: 60px;
    }
 
 
 
             /* Style showroom*/
+
+            /* Style contacts*/
+
+    .phone-col-contacts, .write-us-col-contacts, .our-items-col-contacts{
+        border-bottom: 2px solid #cab08d;
+    }
+    .address-contacts{
+        padding-top: 30px;
+    }
+    .phone-col-contacts{
+        padding-bottom: 30px;
+    }
+    .write-us-col-contacts, .our-items-col-contacts{
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .write-us-col-contacts h2, .write-us-col-contacts p, .phone-col-contacts h2, .phone-col-contacts p, .our-items-col-contactsh h2, .our-items-col-contacts p, .address-contacts h2, .address-contacts p{
+        text-align: center;
+    }
+
+    .first-table-contacts, .second-table-contacts{
+       margin: 0 auto;
+    }
+    .link-contacts{
+        display: inline;
+        text-align: center;
+    }
+
+
+            /* Style contacts*/
 
 
 
@@ -1838,6 +1917,17 @@ body{
 
 
             /* Style showroom*/
+
+            /* Style contacts*/
+
+    .nav-table-contacts{
+        margin-top: 100px;
+    }
+    .phone-col-contacts, .write-us-col-contacts, .our-items-col-contacts{
+        border-right: 2px solid #cab08d;
+    }
+
+            /* Style contacts*/
 
 
 
