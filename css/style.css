@@ -186,7 +186,9 @@ body{
 }
 .page-footer{
       padding-top: 75px;
-      background-color: #eeece9
+      background-color: #eeece9;
+      overflow: hidden;
+
 }
 .page-footer li{
       font-family: Roboto;
@@ -1017,6 +1019,89 @@ body{
 
     /* Style contacts*/
 
+    /* Style blog*/
+
+    .first-row-blog, .second-row-blog, .third-row-blog{
+        margin-top: 30px;
+    }
+    .togo-blog{
+        border: 1px solid rgba(0, 0, 0, 0.1);
+
+    }
+    .togo-blog h2{
+          font-family: Roboto;
+          font-size: 20px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.4;
+          letter-spacing: 0.3px;
+          text-align: left;
+          color: #000000;
+          margin-top: 16px;
+          margin-left: 15px;
+    }
+    .togo-blog p{
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          text-align: left;
+          color: #535353;
+          margin-bottom: 15px;
+          margin-top: 15px;
+          margin-left: 15px;
+    }
+    .togo-blog a{
+          font-size: 16px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          text-align: left;
+          color: #cab08d;
+          margin-left: 15px;
+    }
+    .togo-blog a:hover{
+          color: #535353;
+    }
+    .first-link-blog{
+        margin-top: 30px;
+    }
+    .bg-content-blog p{
+          font-size: 24px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          text-align: center;
+          color: #ffffff;
+    }
+    .bg-content-blog button{
+         border-radius: 50px;
+         border: solid 2px;
+    }
+    .bg-content-blog span{
+          font-size: 14px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 0.3px;
+          text-align: center;
+    }
+    #container-blog{
+        margin-bottom: 100px;
+    }
+
+
+    /* Style blog*/
+
 
 
 
@@ -1766,6 +1851,41 @@ body{
       margin-top: 30px;
       margin-bottom: 30px;
  }
+ .togo-blog h2{
+     font-size: 16px;
+ }
+ .togo-blog p{
+     font-size: 14px;
+ }
+ .col-blog{
+        margin-top: 30px;
+    }
+ .first-link-blog{
+        margin-bottom: 15px;
+     margin-top: 15px;
+    }
+ #container-blog .col-md-8{
+     padding-left: 0px;
+     padding-right: 0px;
+ }
+ #container-blog .col-md-4{
+     padding-right: 25px;
+     padding-left: 25px;
+ }
+ .name-blog{
+       font-family: Roboto;
+       font-size: 24px;
+       font-weight: normal;
+       font-style: normal;
+       font-stretch: normal;
+       line-height: 1.25;
+       letter-spacing: 0.3px;
+       text-align: center;
+       color: #000000;
+       margin-top: 30px;
+       margin-bottom: 30px;
+ }
+
 
             /* Style contacts*/
 
@@ -2007,6 +2127,21 @@ body{
     .contacts-mobile-version{
         display: none;
     }
+    #container-blog{
+        padding-right: 75px;
+        padding-left: 75px;
+        margin-bottom: 60px;
+    }
+    .background-content-photo img{
+        height: 100%;
+    }
+    .bg-content-blog p{
+        font-size: 20px;
+    }
+    .name-blog{
+        display: none;
+    }
+
 
             /* Style contacts*/
 
