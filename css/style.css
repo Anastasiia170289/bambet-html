@@ -996,7 +996,6 @@ body{
           text-decoration: underline;
           padding-top: 15px;
     }
-
     .nav-table-contacts h2{
           font-family: Roboto;
           font-size: 14px;
@@ -1137,15 +1136,16 @@ body{
     .first-link-blog{
         margin-top: 30px;
     }
-    .bg-content-blog p{
+    .bg-content-blog h2{
           font-size: 24px;
           font-weight: bold;
           font-style: normal;
           font-stretch: normal;
           line-height: 1.5;
           letter-spacing: 0.3px;
-          text-align: center;
+
           color: #ffffff;
+
     }
     .bg-content-blog button{
          border-radius: 50px;
@@ -1163,9 +1163,43 @@ body{
     #container-blog{
         margin-bottom: 100px;
     }
+    .togo-blog img{
+        width: 100%;
+    ;
+    }
 
 
     /* Style blog*/
+
+    /* Style information*/
+
+    .nav-list-info li{
+        display: inline-block;
+        list-style-type: none;
+        margin-right:20px;
+          font-family: Roboto;
+          font-size: 16px;
+          font-weight: 500;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 1px;
+          text-align: left;
+
+
+    }
+    .nav-list-info a{
+        color: #000000;
+        opacity: 0.6;
+        padding-bottom: 18px;
+    }
+    .nav-list-info a:hover{
+        border-bottom: 4px solid #cab08d;
+        color: black;
+        opacity: 1;
+    }
+
+    /* Style information*/
 
 
 
@@ -2205,6 +2239,7 @@ body{
     }
     .background-content-photo img{
         height: 100%;
+
     }
     .bg-content-blog p{
         font-size: 20px;
@@ -2212,6 +2247,32 @@ body{
     .name-blog{
         display: none;
     }
+
+
+    /* Style information*/
+
+    .nav-list-info{
+        border-top: 1px solid #cab08d;
+        border-bottom: 1px solid #cab08d;
+    }
+    .nav-list-info li{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .nav-list-info{
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+    .inform-header{
+        margin-top: 100px;
+    }
+    .info-row{
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    /* Style information*/
 
 
             /* Style contacts*/
