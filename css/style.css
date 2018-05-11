@@ -452,6 +452,71 @@ body{
 
 
 
+                /* Style pop-up*/
+
+                .footer-modal p{
+                      font-size: 12px;
+                      font-weight: normal;
+                      font-style: normal;
+                      font-stretch: normal;
+                      line-height: 1;
+                      letter-spacing: 0.3px;
+                      text-align: center;
+                      color: #999999;
+                      margin-top: 15px;
+                }
+                .footer-modal .btn-pop-up-item-page{
+                        border-radius: 40px;
+                        background-color: #cab08d;
+                        margin-top: 45px;
+                }
+                .footer-modal p{
+                    margin-bottom: 50px;
+                }
+                .modal-body{
+                    margin-left: 70px;
+                    margin-right: 70px;
+                }
+                .btn-pop-up-item-page span{
+                      font-size: 14px;
+                      font-weight: bold;
+                      font-style: normal;
+                      font-stretch: normal;
+                      line-height: 1;
+                      letter-spacing: 0.3px;
+                      text-align: center;
+                      color: #ffffff;
+                }
+                .order-item-page h2{
+                      font-family: Roboto;
+                      font-size: 24px;
+                      font-weight: bold;
+                      font-style: normal;
+                      font-stretch: normal;
+                      line-height: 1;
+                      letter-spacing: 0.3px;
+                      color: #000000;
+                      margin-bottom: 15px;
+                }
+                .order-item-page hr{
+                    margin-top: 0px;
+                    margin-bottom: 15px;
+                }
+                .order-item-page p{
+                      font-family: Roboto;
+                      font-size: 16px;
+                      font-weight: normal;
+                      font-style: normal;
+                      font-stretch: normal;
+                      line-height: 1.5;
+                      letter-spacing: 0.3px;
+                      color: #000000;
+                }
+
+
+                /* Style pop-up*/
+
+
                 /* Style Item_page*/
 
                 /* Style Article*/
@@ -1445,7 +1510,13 @@ body{
             display: none;
         }
 
+            /* Style pop-up*/
 
+        .order-item-page h2{
+            font-size: 20px;
+        }
+
+             /* Style pop-up*/
     /* Style Item_page*/
 
     /* Style Article*/

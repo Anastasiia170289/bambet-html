@@ -319,7 +319,48 @@
                    <div class="col-md-4 how-to-order-item">
                        <p class="name-item">ПУФ CLEO</p>
                        <p class="price-item"><b>5800</b> грн</p>
-                       <button type="button" class="btn  waves-light btn-item" style="border-radius: 40px; background-color: #cab08d"><b>ЗАМОВИТИ</b></button>
+                       <button type="button" class="btn  waves-light btn-item" data-toggle="modal" data-target="#exampleModal" style="border-radius: 40px; background-color: #cab08d"><b>ЗАМОВИТИ</b></button>
+
+
+                                        <!-- Pop-up window-->
+
+                       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="border-bottom: none">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <img src="img/heart-copy-2.svg">
+        </button>
+      </div>
+      <div class="modal-body modal-body-item-page">
+          <div class="order-item-page" style="text-align: center">
+              <h2>
+                  Оформлення замовлення
+              </h2>
+              <hr align="center" height="2" width="70" color="#cab08d">
+              <p>
+                  Будь ласка, заповніть форму нижче і ми зв’яжемось з Вами найблищим часом
+              </p>
+          </div>
+        <div class="md-form" style="margin-top: 45px">
+            <input mdbInputDirective type="text" name="text" placeholder="Введіть ваші ім’я та прізвище" id="form-item-page-first" class="form-control">
+        </div>
+          <div class="md-form" style="margin-top: 45px">
+            <input mdbInputDirective type="text" name="text" placeholder="Вкажіть ваш email" id="form-item-page-second" class="form-control">
+        </div>
+          <div class="md-form" style="margin-top: 45px">
+            <input mdbInputDirective type="text" name="text" placeholder="Введіть ваш номер телефону" id="form-item-page-third" class="form-control">
+        </div>
+      </div>
+      <div class="footer-modal">
+        <button type="button" class="btn btn-pop-up-item-page" data-dismiss="modal"><span>ОФОРМИТИ ЗАКАЗ</span></button>
+          <p>* Ваші дані ніколи не будуть передані третім особам</p>
+
+      </div>
+    </div>
+  </div>
+</div>
+                                        <!-- Pop-up window-->
                        <p class="how-long-do-item">* Термін виготовлення даного виробу
                             10 робочих днів</p>
                    </div>
