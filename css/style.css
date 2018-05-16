@@ -3,6 +3,7 @@ body{
       width: 100%;
  }
 
+
 .fa-facebook-official, .fa-instagram{
       width: 21px;
       height: 18px;
@@ -36,7 +37,6 @@ body{
     border: 1px solid white;
 }
 .nav-word {
-      width: 101px;
       opacity: 0.6;
       font-family: Roboto;
       font-size: 16px;
@@ -48,6 +48,11 @@ body{
       text-align: center;
       color: black;
  }
+.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+
+}
 .nav_language{
       display: inline;
       left: 65px;
@@ -289,6 +294,89 @@ body{
       text-align: left;
       color: #000000;
  }
+.pop-up-nav li, .pop-up-nav a{
+      list-style-type: none;
+      opacity: 0.6;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1;
+      letter-spacing: 1px;
+      text-align: center;
+      color: #000000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.pop-up-nav ul{
+    padding-left: 0px;
+}
+.pop-up-nav a:hover{
+    color: black;
+    opacity: 1;
+}
+#modal-pop-up{
+    border-bottom: 1px solid lightgray;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#pop-up-modal-dialog{
+    margin: 0px;
+}
+.pop-up-info li{
+      list-style-type: none;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1;
+      letter-spacing: 0.3px;
+      text-align: left;
+      color: #333333;
+}
+.pop-up-info ul{
+    margin-top: 31px;
+    margin-bottom: 31px;
+    margin-left: 61px;
+    margin-right: 63px;
+    padding-left: 0px;
+}
+.pop-up-info .fa{
+    margin-right: 17px;
+}
+
+.pop-up-social-network ul{
+    list-style-type: none;
+}
+.pop-up-social-network li{
+    display: inline;
+}
+.pop-up-language a{
+    opacity: 0.6;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #000000;
+
+}
+.pop-up-language span{
+    color: rgba(0, 0, 0, 0.3);
+    opacity: 0.6;
+}
+.pop-up-language a:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+.pop-up-language{
+    padding-top: 15px;
+}
+
 
                      /*Items style*/
 
@@ -1165,7 +1253,7 @@ body{
     }
     .togo-blog img{
         width: 100%;
-    ;
+
     }
 
 
@@ -1173,10 +1261,7 @@ body{
 
     /* Style information*/
 
-    .nav-list-info li{
-        display: inline-block;
-        list-style-type: none;
-        margin-right:20px;
+    .list-info .nav-link{
           font-family: Roboto;
           font-size: 16px;
           font-weight: 500;
@@ -1185,19 +1270,53 @@ body{
           line-height: 1;
           letter-spacing: 1px;
           text-align: left;
+          color: #000000;
+          opacity: 0.6;
+}
+    .nav-info{
+        margin-bottom: 60px;
+    }
+
+    .inform-header{
+      font-family: Roboto;
+      font-size: 36px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1;
+      letter-spacing: 0.5px;
+      text-align: center;
+      color: #000000;
+        margin-bottom: 30px;
+    }
+    #how-to-pay-info, #how-to-take-info, #how-to-cost-info{
+          font-size: 22px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1;
+          letter-spacing: 0.3px;
+          text-align: left;
+          color: #000000;
+          margin-bottom: 30px;
+    }
+    #how-to-take-info, #how-to-cost-info{
+        margin-top: 50px;
+    }
+    .main-content-info p{
+          font-family: Roboto;
+          font-size: 18px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.5;
+          letter-spacing: 0.3px;
+          text-align: left;
+          color: #000000;
+    }
 
 
-    }
-    .nav-list-info a{
-        color: #000000;
-        opacity: 0.6;
-        padding-bottom: 18px;
-    }
-    .nav-list-info a:hover{
-        border-bottom: 4px solid #cab08d;
-        color: black;
-        opacity: 1;
-    }
+
 
     /* Style information*/
 
@@ -1209,6 +1328,9 @@ body{
 
 
 @media screen and (max-width: 770px){
+     #collapsingNavbar2{
+         display: none;
+     }
     .navigation-main{
         height: 81px;
     }
@@ -1220,6 +1342,7 @@ body{
     }
     #nav-bar_menu {
             height: 81px;
+
     }
     #slide-background{
             padding: 0px;
@@ -1919,7 +2042,6 @@ body{
     .write-us-col-contacts h2, .write-us-col-contacts p, .phone-col-contacts h2, .phone-col-contacts p, .our-items-col-contacts h2, .our-items-col-contacts p, .address-contacts h2, .address-contacts p{
         text-align: center;
     }
-
     .first-table-contacts, .second-table-contacts{
        margin: 0 auto;
     }
@@ -1935,64 +2057,138 @@ body{
     .write-us-contacts p{
         font-size: 14px;
     }
- .btn-section-contacts{
-        margin-top: 40px;
-    }
- .btn-section-contacts p{
-     text-align: center;
-     margin-top: 15px;
-     margin-bottom: 60px;
- }
- .contacts-mobile-version{
-      font-family: Roboto;
-      font-size: 24px;
-      font-weight: normal;
-      font-style: normal;
-      font-stretch: normal;
-      line-height: 1.25;
-      letter-spacing: 0.3px;
-      text-align: center;
-      color: #000000;
-      margin-top: 30px;
-      margin-bottom: 30px;
- }
- .togo-blog h2{
-     font-size: 16px;
- }
- .togo-blog p{
-     font-size: 14px;
- }
- .col-blog{
-        margin-top: 30px;
-    }
- .first-link-blog{
-        margin-bottom: 15px;
-     margin-top: 15px;
-    }
- #container-blog .col-md-8{
-     padding-left: 0px;
-     padding-right: 0px;
- }
- #container-blog .col-md-4{
-     padding-right: 25px;
-     padding-left: 25px;
- }
- .name-blog{
-       font-family: Roboto;
-       font-size: 24px;
-       font-weight: normal;
-       font-style: normal;
-       font-stretch: normal;
-       line-height: 1.25;
-       letter-spacing: 0.3px;
-       text-align: center;
-       color: #000000;
-       margin-top: 30px;
-       margin-bottom: 30px;
- }
+     .btn-section-contacts{
+            margin-top: 40px;
+        }
+     .btn-section-contacts p{
+         text-align: center;
+         margin-top: 15px;
+         margin-bottom: 60px;
+     }
+     .contacts-mobile-version{
+          font-family: Roboto;
+          font-size: 24px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.25;
+          letter-spacing: 0.3px;
+          text-align: center;
+          color: #000000;
+          margin-top: 30px;
+          margin-bottom: 30px;
+     }
+     .togo-blog h2{
+         font-size: 16px;
+     }
+     .togo-blog p{
+         font-size: 14px;
+     }
+     .col-blog{
+            margin-top: 30px;
+        }
+     .first-link-blog{
+            margin-bottom: 15px;
+         margin-top: 15px;
+        }
+     #container-blog .col-md-8{
+         padding-left: 0px;
+         padding-right: 0px;
+     }
+     #container-blog .col-md-4{
+         padding-right: 25px;
+         padding-left: 25px;
+     }
+     .name-blog{
+           font-family: Roboto;
+           font-size: 24px;
+           font-weight: normal;
+           font-style: normal;
+           font-stretch: normal;
+           line-height: 1.25;
+           letter-spacing: 0.3px;
+           text-align: center;
+           color: #000000;
+           margin-top: 30px;
+           margin-bottom: 30px;
+     }
 
 
             /* Style contacts*/
+
+            /* Style information*/
+
+
+
+            /* Style information*/
+
+
+}
+
+@media screen and (max-width: 990px){
+    .nav-info{
+        display: none;
+        height: 56px;
+        margin-bottom: 30px;
+    }
+    .nav-info .navbar-expand-lg{
+        height: 56px;
+    }
+    .arrow-down-info{
+          margin-bottom: 4px;
+          color: #cab08d;
+    }
+    .navbar-brand-info{
+           font-family: Roboto;
+           font-size: 16px;
+           font-weight: 500;
+           font-style: normal;
+           font-stretch: normal;
+           line-height: 1;
+           letter-spacing: 1px;
+           text-align: left;
+           color: #000000;
+    }
+
+#navbarTogglerDemo02 {
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+}
+
+
+    .inform-header{
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    #navbarInfo{
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        border: 1px solid #cab08d;
+        padding-left: 30px;
+        padding-right: 30px;
+
+    }
+    #how-to-pay-info, #how-to-take-info, #how-to-cost-info{
+        font-size: 18px;
+        margin-bottom: 15px;
+
+    }
+    #how-to-take-info, #how-to-cost-info{
+        margin-top: 30px;
+    }
+    .main-content-info p{
+        font-size: 14px;
+    }
+    .delivery-info{
+        display: none;
+    }
+    #content-info{
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+
 
 
 
@@ -2199,7 +2395,6 @@ body{
     .showroom-nav{
         display: none;
     }
-
     .img-showroom{
         height: 305px;
 
@@ -2208,7 +2403,6 @@ body{
         height: 100%;
 
     }
-
     .mobile-version-showroom-address{
         display: none;
     }
@@ -2248,38 +2442,49 @@ body{
         display: none;
     }
 
+    /* Style contacts*/
+
 
     /* Style information*/
 
-    .nav-list-info{
-        border-top: 1px solid #cab08d;
-        border-bottom: 1px solid #cab08d;
-    }
-    .nav-list-info li{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .nav-list-info{
-        margin-left: 40px;
-        margin-right: 40px;
-        margin-top: 30px;
-    }
+
     .inform-header{
         margin-top: 100px;
     }
-    .info-row{
-        margin-right: 40px;
-        margin-left: 40px;
+    .nav-info .nav-link{
+        padding-bottom: 0px;
+        height: 51px;
+        padding-top: 15px;
     }
+    .nav-info{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+
 
     /* Style information*/
 
+}
+@media screen and (min-width: 990px){
 
-            /* Style contacts*/
-
-
-
-
-
+.navbar-brand-info{
+        display: none;
+    }
+    .nav-info .nav-link:hover{
+        border-bottom: 4px solid #cab08d;
+        opacity: 1;
+    }
+    .nav-info .nav-link{
+        margin-top: 3px;
+    }
+    #navbarInfo{
+        border-bottom: 1px solid #cab08d;
+        border-top: 1px solid #cab08d;
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    .panel{
+        display: none;
+    }
 }
 
