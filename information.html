@@ -44,10 +44,10 @@
          <div class="nav_logo">
      <div class="container-fluid  main-nav d-flex align-items-center justify-content-center navbar-dark">
          <div class="row d-flex justify-content-center">
-             <div class="col-md-12 text-center">
-                 <a class="navLogo" href="#">
-                     <img src="img/Bambet_logo_1.svg" height="40" class="img-responsive" alt="logo_nav">
-                        </a>
+             <div class="col-md-12 text-center pl-0 pr-0">
+
+                     <img src="img/Bambet_logo_1.svg" height="50" class="img-responsive" alt="logo_nav" width="100%">
+
              </div>
          </div>
      </div>
@@ -97,17 +97,17 @@
     </nav>
          <!--modal window-->
 
-         <div class="modal fade" id="exampleModal2" tabindex="-2" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" style="position: absolute; height: 100%">
-  <div class="modal-dialog" role="document" id="pop-up-modal-dialog" style="height: 100%">
+         <div class="modal hide fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-width="760" style="position: absolute">
+  <div class="modal-dialog" role="document" id="pop-up-modal-dialog">
     <div class="modal-content" style="height: 100%">
       <div class="modal-header" style="border-bottom: 1px solid lightgray; height: 81px">
           <img src="img/Bambet_logo_1.svg" class="img-fluid" alt="pop-up-img">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 24px; padding-top: 24px">
-          <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+          &times;
         </button>
       </div>
-      <div class="modal-body" id="modal-pop-up">
-          <div class="pop-up-nav" style="text-align: center; border-bottom: 1px solid lightgray ">
+      <div class="modal-body" id="modal-pop-up" style="padding: 0px">
+          <div class="pop-up-nav" style="text-align: center">
               <ul>
                   <li><a href="#">ВИРОБИ</a></li>
                   <li><a href="#">ПРО НАС</a></li>
@@ -116,7 +116,7 @@
                   <li><a href="#">КОНТАКТИ</a></li>
               </ul>
           </div>
-          <div class="pop-up-info">
+          <div class="pop-up-info" >
               <ul>
                      <li style="margin-bottom: 21px"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Кременчук, вул.Троїцька,61/52</span></li>
                      <li style="margin-bottom: 21px"><i class="fa fa-phone" aria-hidden="true"></i><span>+38 (068) 011 35 35</span></li>
@@ -159,7 +159,8 @@
 <main>
     <div class="container-fluid">
         <h2 style="text-align: center" class="inform-header">Інформація</h2>
-        <div class="col-md-12" id="content-info" style="text-align: center">
+
+        <div  id="content-info" style="text-align: center">
               <!--collapse according-->
 
             <div class="panel panel-default">
@@ -185,8 +186,8 @@
             <i class="fa fa-sort-down arrow-down-info" aria-hidden="true" ></i>
   </button>
 
-  <div class="collapse navbar-collapse " id="navbarTogglerDemo02"  >
-    <ul class=" nav navbar-nav  text-center list-info">
+  <div class=" navbar-collapse " id="navbarTogglerDemo02"  >
+    <ul class=" nav navbar-nav   mx-auto text-center list-info" >
       <li class="nav-item nav-item-info ">
         <a class="nav-link nav-item-info" href="#">Замовлення виробу</a>
       </li>
@@ -207,6 +208,7 @@
 </nav>
             </div>
         </div>
+
     </div>
     <div class="container">
         <h2 class="delivery-info" style="text-align: center">Оплата і доставка</h2>
