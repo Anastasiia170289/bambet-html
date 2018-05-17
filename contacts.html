@@ -37,9 +37,7 @@
 
 </head>
 <body>
-
 <!-- Main Navigation-->
-
  <header>
 
                 <!-- Just an image -->
@@ -47,10 +45,10 @@
          <div class="nav_logo">
      <div class="container-fluid  main-nav d-flex align-items-center justify-content-center navbar-dark">
          <div class="row d-flex justify-content-center">
-             <div class="col-md-12 text-center">
-                 <a class="navLogo" href="#">
-                     <img src="img/Bambet_logo_1.svg" height="40" class="img-responsive" alt="logo_nav">
-                        </a>
+             <div class="col-md-12 text-center pl-0 pr-0">
+
+                     <img src="img/Bambet_logo_1.svg" height="50" class="img-responsive" alt="logo_nav" width="100%">
+
              </div>
          </div>
      </div>
@@ -58,7 +56,7 @@
 
                 <!--Navbar-->
 
-     <nav class="navbar navbar-light navbar-expand-md bg-light" id="nav-bar_menu">
+     <nav class="navbar navbar-light navbar-expand-md " id="nav-bar_menu">
          <div class="nav_brand">
         <a href="/" class="navbar-brand mr-0">
             <img src="img/Bambet_logo_1.svg" height="40" class="img-responsive" alt="logo_nav">
@@ -68,25 +66,26 @@
              <a href="#" class="nav_language_UA">UA</a><span class="devided">|</span>
              <a href="#" class="nav_language_RUS">RUS</a>
              </div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+        <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#exampleModal2">
             <span class="navbar-toggler-icon"></span>
         </button>
+
     <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
         <ul class="navbar-nav mx-auto text-center">
             <li class="nav-item nav-word">
-                <a class="nav-link active" href="#">Вироби <span class="sr-only">Вироби</span></a>
+                <a class="nav-link" href="#">ВИРОБИ <span class="sr-only">ВИРОБИ</span></a>
             </li>
             <li class="nav-item nav-word">
-                <a class="nav-link" href="#">Про нас</a>
+                <a class="nav-link" href="#">ПРО НАС</a>
             </li>
             <li class="nav-item nav-word">
-                <a class="nav-link" href="#">Блог</a>
+                <a class="nav-link" href="#">БЛОГ</a>
             </li>
              <li class="nav-item nav-word">
-                <a class="nav-link" href="#">Showroom</a>
+                <a class="nav-link" href="#">SHOWROOM</a>
             </li>
              <li class="nav-item nav-word">
-                <a class="nav-link" href="#">Контакти</a>
+                <a class="nav-link" href="#">КОНТАКТИ</a>
             </li>
         </ul>
         <div class="nav-icons">
@@ -97,8 +96,64 @@
         </div>
     </div>
     </nav>
+         <!--modal window-->
+
+         <div class="modal hide fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-width="760" style="position: absolute">
+  <div class="modal-dialog" role="document" id="pop-up-modal-dialog">
+    <div class="modal-content" style="height: 100%">
+      <div class="modal-header" style="border-bottom: 1px solid lightgray; height: 81px">
+          <img src="img/Bambet_logo_1.svg" class="img-fluid" alt="pop-up-img">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 24px; padding-top: 24px">
+          &times;
+        </button>
+      </div>
+      <div class="modal-body" id="modal-pop-up" style="padding: 0px">
+          <div class="pop-up-nav" style="text-align: center">
+              <ul>
+                  <li><a href="#">ВИРОБИ</a></li>
+                  <li><a href="#">ПРО НАС</a></li>
+                  <li><a href="#">БЛОГ</a></li>
+                  <li><a href="#">SHOWROOM</a></li>
+                  <li><a href="#">КОНТАКТИ</a></li>
+              </ul>
+          </div>
+          <div class="pop-up-info" >
+              <ul>
+                     <li style="margin-bottom: 21px"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Кременчук, вул.Троїцька,61/52</span></li>
+                     <li style="margin-bottom: 21px"><i class="fa fa-phone" aria-hidden="true"></i><span>+38 (068) 011 35 35</span></li>
+                     <li><i class="fa fa-envelope" aria-hidden="true"></i><span>info@bambet.com.ua</span></li>
+                </ul>
+          </div>
+      </div>
+
+      <div class="footer-modal">
+          <div class="container-fluid">
+              <div class="row" style="height: 55px">
+             <div class="col-6 pop-up-social-network" style="border-right: 1px solid lightgray">
+             <ul style="text-align: center; padding-left: 0px; padding-top: 15px">
+            <li><a href=""><i class="fa fa-facebook-official fa-lg" aria-hidden="true" style="width: 21px"></i></a> </li>
+            <li><a  href=""><i class="fa fa-instagram fa-lg" style="margin-left: 17px"></i></a> </li>
+        </ul>
+             </div>
+          <div class=" col-6 pop-up-language" style="text-align: center">
+              <a href="#" style="padding-right: 5px">UA</a><span>|</span><a href="#" class="active" style="padding-left: 5px">RUS</a>
+          </div>
+              </div>
+      </div>
+      </div>
+
+  </div>
+</div>
+         </div>
+
+
+
+
+         <!--modal window-->
+
      </div>
  </header>
+
 
                 <!-- Main layout-->
 
