@@ -1,358 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bambet</title>
-
     <link href="css/style.css" rel="stylesheet" />
 
-                <!-- Font Awesome -->
+    <!-- Font Awesome -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-                <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS -->
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 
-                <!-- Material Design Bootstrap -->
+    <!-- Material Design Bootstrap -->
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
-
-                <!-- JQuery -->
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-                <!-- Bootstrap tooltips -->
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
-
-                <!-- Bootstrap core JavaScript -->
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-                <!-- MDB core JavaScript -->
-
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/js/mdb.min.js"></script>
 </head>
 <body>
+
+<!-- SCRIPTS -->
+
+<!-- JQuery -->
+
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+
+<!-- Bootstrap tooltips -->
+
+<script type="text/javascript" src="js/popper.min.js"></script>
+
+<!-- Bootstrap core JavaScript -->
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<!-- MDB core JavaScript -->
+
+<script type="text/javascript" src="js/mdb.min.js"></script>
+
 <!-- Main Navigation-->
- <header>
 
-                <!-- Just an image -->
-     <div class="navigation">
-         <div class="nav_logo">
-     <div class="container-fluid  main-nav d-flex align-items-center justify-content-center navbar-dark">
-         <div class="row d-flex justify-content-center">
-             <div class="col-md-12 text-center pl-0 pr-0">
+<header>
+    <!-- Just an image -->
 
-                     <img src="img/Bambet_logo_1.svg" height="50" class="img-responsive" alt="logo_nav" width="100%">
+    <div class="navigation">
+        <div class="nav_logo">
+            <div class="container-fluid  main-nav d-flex align-items-center justify-content-center navbar-dark">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-12 text-center pl-0 pr-0">
+                        <img src="img/Bambet_logo_1.svg" height="50" class="img-responsive" alt="logo_nav" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
 
-             </div>
-         </div>
-     </div>
-         </div>
+        <!--Navbar-->
 
-                <!--Navbar-->
+        <nav class="navbar navbar-expand-md " id="nav-bar_menu">
+            <div class="nav_brand">
+                <a href="/" class="navbar-brand mr-0">
+                    <img src="img/Bambet_logo_1.svg" height="40" class="img-responsive" alt="logo_nav">
+                </a>
+            </div>
+            <div class="nav_language">
+                <a href="#" class="nav_language_UA">UA</a>
+                <a href="#" class="nav_language_RUS">RUS</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#exampleModal2">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item nav-word">
+                        <a class="nav-link" href="#">ВИРОБИ <span class="sr-only">ВИРОБИ</span></a>
+                    </li>
+                    <li class="nav-item nav-word">
+                        <a class="nav-link" href="#">ПРО НАС</a>
+                    </li>
+                    <li class="nav-item nav-word">
+                        <a class="nav-link" href="#">БЛОГ</a>
+                    </li>
+                    <li class="nav-item nav-word">
+                        <a class="nav-link" href="#">SHOWROOM</a>
+                    </li>
+                    <li class="nav-item nav-word">
+                        <a class="nav-link" href="#">КОНТАКТИ</a>
+                    </li>
+                </ul>
+                <div class="nav-icons">
+                    <ul class="nav navbar-nav flex-row justify-content-center ">
+                        <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a> </li>
+                        <li class="nav-item"><a class="nav-link"  href=""><i class="fa fa-instagram"></i></a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-     <nav class="navbar navbar-light navbar-expand-md " id="nav-bar_menu">
-         <div class="nav_brand">
-        <a href="/" class="navbar-brand mr-0">
-            <img src="img/Bambet_logo_1.svg" height="40" class="img-responsive" alt="logo_nav">
-        </a>
-         </div>
-             <div class="nav_language">
-             <a href="#" class="nav_language_UA">UA</a><span class="devided">|</span>
-             <a href="#" class="nav_language_RUS">RUS</a>
-             </div>
-        <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#exampleModal2">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        <!--modal window-->
 
-    <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
-        <ul class="navbar-nav mx-auto text-center">
-            <li class="nav-item nav-word">
-                <a class="nav-link" href="#">ВИРОБИ <span class="sr-only">ВИРОБИ</span></a>
-            </li>
-            <li class="nav-item nav-word">
-                <a class="nav-link" href="#">ПРО НАС</a>
-            </li>
-            <li class="nav-item nav-word">
-                <a class="nav-link" href="#">БЛОГ</a>
-            </li>
-             <li class="nav-item nav-word">
-                <a class="nav-link" href="#">SHOWROOM</a>
-            </li>
-             <li class="nav-item nav-word">
-                <a class="nav-link" href="#">КОНТАКТИ</a>
-            </li>
-        </ul>
-        <div class="nav-icons">
-        <ul class="nav navbar-nav flex-row justify-content-center ">
-            <li class="nav-item"><a class="nav-link" href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a> </li>
-            <li class="nav-item"><a class="nav-link"  href=""><i class="fa fa-instagram"></i></a> </li>
-        </ul>
+        <div class="modal hide fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-width="760" style="position: absolute">
+            <div class="modal-dialog" role="document" id="pop-up-modal-dialog">
+                <div class="modal-content" style="height: 100%">
+                    <div class="modal-header" style="border-bottom: 1px solid lightgray; height: 81px">
+                        <img src="img/Bambet_logo_1.svg" class="img-fluid" alt="pop-up-img">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 24px; padding-top: 24px">
+                            &times;
+                        </button>
+                    </div>
+                    <div class="modal-body" id="modal-pop-up" style="padding: 0px">
+                        <div class="pop-up-nav" style="text-align: center">
+                            <ul>
+                                <li><a href="#">ВИРОБИ</a></li>
+                                <li><a href="#">ПРО НАС</a></li>
+                                <li><a href="#">БЛОГ</a></li>
+                                <li><a href="#">SHOWROOM</a></li>
+                                <li><a href="#">КОНТАКТИ</a></li>
+                            </ul>
+                        </div>
+                        <div class="pop-up-info" >
+                            <ul>
+                                <li style="margin-bottom: 21px"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Кременчук, вул.Троїцька,61/52</span></li>
+                                <li style="margin-bottom: 21px"><i class="fa fa-phone" aria-hidden="true"></i><span>+38 (068) 011 35 35</span></li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i><span>info@bambet.com.ua</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-modal">
+                        <div class="container-fluid">
+                            <div class="row" style="height: 55px">
+                                <div class="col-6 pop-up-social-network" style="border-right: 1px solid lightgray">
+                                    <ul style="text-align: center; padding-left: 0px; padding-top: 15px">
+                                        <li><a href=""><i class="fa fa-facebook-official fa-lg" aria-hidden="true" style="width: 21px"></i></a> </li>
+                                        <li><a  href=""><i class="fa fa-instagram fa-lg" style="margin-left: 17px"></i></a> </li>
+                                    </ul>
+                                </div>
+                                <div class=" col-6 pop-up-language" style="text-align: center">
+                                    <a href="#" style="padding-right: 5px">UA</a><span>|</span><a href="#" class="active" style="padding-left: 5px">RUS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--modal window-->
+
+    </div>
+</header>
+
+<!--Main layout-->
+<main class="content-showroom">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-9 main-content-showroom">
+                <h2 class="showroom-nav">SHOWROOM</h2>
+                <p style="text-align: center">
+                    Завітайте до нас та переконайтеся на власні очі,  як тільки-но зароджена <b>ІДЕЯ</b> оживає в руках <b>ТАЛАНОВИТОГО МАЙСТРА</b>. У нас ви отримаєте відповіді на будь-які питання, зможете обговорити оформлення замовлення та інші деталі у зручній атмосфері.
+                </p>
+            </div>
         </div>
     </div>
-    </nav>
-         <!--modal window-->
-
-         <div class="modal hide fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" data-width="760" style="position: absolute">
-  <div class="modal-dialog" role="document" id="pop-up-modal-dialog">
-    <div class="modal-content" style="height: 100%">
-      <div class="modal-header" style="border-bottom: 1px solid lightgray; height: 81px">
-          <img src="img/Bambet_logo_1.svg" class="img-fluid" alt="pop-up-img">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="padding-right: 24px; padding-top: 24px">
-          &times;
-        </button>
-      </div>
-      <div class="modal-body" id="modal-pop-up" style="padding: 0px">
-          <div class="pop-up-nav" style="text-align: center">
-              <ul>
-                  <li><a href="#">ВИРОБИ</a></li>
-                  <li><a href="#">ПРО НАС</a></li>
-                  <li><a href="#">БЛОГ</a></li>
-                  <li><a href="#">SHOWROOM</a></li>
-                  <li><a href="#">КОНТАКТИ</a></li>
-              </ul>
-          </div>
-          <div class="pop-up-info" >
-              <ul>
-                     <li style="margin-bottom: 21px"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Кременчук, вул.Троїцька,61/52</span></li>
-                     <li style="margin-bottom: 21px"><i class="fa fa-phone" aria-hidden="true"></i><span>+38 (068) 011 35 35</span></li>
-                     <li><i class="fa fa-envelope" aria-hidden="true"></i><span>info@bambet.com.ua</span></li>
-                </ul>
-          </div>
-      </div>
-
-      <div class="footer-modal">
-          <div class="container-fluid">
-              <div class="row" style="height: 55px">
-             <div class="col-6 pop-up-social-network" style="border-right: 1px solid lightgray">
-             <ul style="text-align: center; padding-left: 0px; padding-top: 15px">
-            <li><a href=""><i class="fa fa-facebook-official fa-lg" aria-hidden="true" style="width: 21px"></i></a> </li>
-            <li><a  href=""><i class="fa fa-instagram fa-lg" style="margin-left: 17px"></i></a> </li>
-        </ul>
-             </div>
-          <div class=" col-6 pop-up-language" style="text-align: center">
-              <a href="#" style="padding-right: 5px">UA</a><span>|</span><a href="#" class="active" style="padding-left: 5px">RUS</a>
-          </div>
-              </div>
-      </div>
-      </div>
-
-  </div>
-</div>
-         </div>
-
-
-
-
-         <!--modal window-->
-
-     </div>
- </header>
-
-
-        <!--Main layout-->
-                <main class="content-showroom">
-                    <div class="container">
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-md-9 main-content-showroom">
-                                <h2 class="showroom-nav">SHOWROOM</h2>
-                                <p style="text-align: center">
-                                    Завітайте до нас та переконайтеся на власні очі,  як тільки-но зароджена <b>ІДЕЯ</b> оживає в руках <b>ТАЛАНОВИТОГО МАЙСТРА</b>. У нас ви отримаєте відповіді на будь-які питання, зможете обговорити оформлення замовлення та інші деталі у зручній атмосфері.
+    <div class="container-fluid" id="section-container">
+        <div class="flex-center" id="background-img-showroom">
+            <div class="img-showroom">
+                <img src="img/bitmap.jpg" class="img-fluid " alt="img-showroom">
+            </div>
+            <div class="background-content-showroom" style="width: 550px">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2 style="text-align: center">КРЕМЕНЧУК</h2>
+                        </div>
+                    </div>
+                    <div class="background-showroom-address">
+                        <div class="row ">
+                            <div class="col-md-5" style="text-align: left; padding: 0">
+                                <p class="showroom-address">
+                                    салон Жовтий Аероплан,<br>вул. Небесної сотні, 53
                                 </p>
+                                <button type="button" class="btn btn-outline-white button-showroom" style="border-radius: 50px"><span>НА КАРТІ</span></button>
+                            </div>
+                            <div class="col-md-4">
+                                <ul style="text-align: left;">
+                                    <li>Пн-Пт:</li>
+                                    <li>Сб:</li>
+                                    <li>Вс:</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3" style="padding: 0">
+                                <ul style="text-align: left; padding-left: 0px">
+                                    <li>9:00-19:00</li>
+                                    <li>9:00-17:00</li>
+                                    <li>10:00-16:00</li>
+                                </ul>
                             </div>
                         </div>
-</div>
-                    <div class="container-fluid" id="section-container">
-                            <div class="flex-center" id="background-img-showroom">
-                                <div class="img-showroom">
-                                        <img src="img/bitmap.jpg" class="img-fluid " alt="img-showroom">
-                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                                <div class="background-content-showroom" style="width: 550px">
-                                    <div class="container-fluid">
-                                    <div class="row">
-                                        <div class="col-md-12">
-                                            <h2 style="text-align: center">КРЕМЕНЧУК</h2>
-                                        </div>
-                                    </div>
-                                        <div class="background-showroom-address">
-                                    <div class="row ">
+    <!--Mobile version-->
 
+    <div class="container">
+        <div class="mobile-version-showroom-address">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>
+                        салон Жовтий Аероплан, вул. Небесної сотні, 53
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="text-align: center">
+                    <a href="#">НА КАРТІ</a>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 30px">
+                <div class="col-12">
+                    <table align="center">
+                        <tr>
+                            <td>Пн-Пт:</td>
+                            <td style="padding-left: 15px; font-weight: bold">9:00-19:00</td>
+                        </tr>
+                        <tr>
+                            <td>Сб:</td>
+                            <td style="padding-left: 15px; font-weight: bold">9:00-17:00</td>
+                        </tr>
+                        <tr>
+                            <td>Вс:</td>
+                            <td style="padding-left: 15px; font-weight: bold">10:00-16:00</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                                        <div class="col-md-5" style="text-align: left; padding: 0">
-                                            <p class="showroom-address">
-                                                салон Жовтий Аероплан,<br>вул. Небесної сотні, 53
-                                            </p>
-                                            <button type="button" class="btn btn-outline-white button-showroom" style="border-radius: 50px"><span>НА КАРТІ</span></button>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <ul style="text-align: left;">
-                                                <li>Пн-Пт:</li>
-                                                <li>Сб:</li>
-                                                <li>Вс:</li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-3" style="padding: 0">
-                                            <ul style="text-align: left; padding-left: 0px">
-                                                <li>9:00-19:00</li>
-                                                <li>9:00-17:00</li>
-                                                <li>10:00-16:00</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    </div>
-                                        </div>
-                                    </div>
+    <!--Mobile version-->
+</main>
 
-                            </div>
-                        </div>
-
-                                        <!--Mobile version-->
-
-
-                                        <div class="container">
-                                        <div class="mobile-version-showroom-address">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <p>
-                                                        салон Жовтий Аероплан, вул. Небесної сотні, 53
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12" style="text-align: center">
-                                                    <a href="#">НА КАРТІ</a>
-                                                </div>
-                                            </div>
-                                            <div class="row" style="margin-top: 30px">
-                                                <div class="col-12">
-                                                    <table align="center">
-                                                        <tr>
-                                                            <td>Пн-Пт:</td>
-                                                            <td style="padding-left: 15px; font-weight: bold">9:00-19:00</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Сб:</td>
-                                                            <td style="padding-left: 15px; font-weight: bold">9:00-17:00</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Вс:</td>
-                                                            <td style="padding-left: 15px; font-weight: bold">10:00-16:00</td>
-                                                        </tr>
-                                                    </table>
-                                                </div>
-                                            </div>
-                                        </div>
-                                </div>
-
-                                        <!--Mobile version-->
-                </main>
-        <!--Main layout-->
+<!--Main layout-->
 
 <!--Footer-->
 
- <footer class="page-footer">
-        <!-- Footer links-->
-     <div class="container-fluid">
-         <div class="row d-flex">
-             <div class="col-md-3 footer-address">
-                 <img src="img/photoeditorsdk-export.png" class="img-fluid footer-logo">
-                 <ul>
-                     <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Кременчук, вул.Троїцька,61/52</span></li>
-                     <li><i class="fa fa-phone" aria-hidden="true"></i><span>+38 (068) 011 35 35</span></li>
-                     <li><i class="fa fa-envelope" aria-hidden="true"></i><span>info@bambet.com.ua</span></li>
+<footer class="page-footer">
+
+    <!-- Footer links-->
+
+    <div class="container-fluid">
+        <div class="row d-flex">
+            <div class="col-md-3 footer-address">
+                <img src="img/photoeditorsdk-export.png" class="img-fluid footer-logo">
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Кременчук, вул.Троїцька,61/52</span></li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i><span>+38 (068) 011 35 35</span></li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i><span>info@bambet.com.ua</span></li>
                 </ul>
-             </div>
+            </div>
 
-         <!--Mobile version only-->
-             <div class="col-md-3 follow-us">
-                 <p><b>СЛІДКУЙТЕ ЗА НАМИ:</b></p>
-                 <div class="footer-social-network">
-                     <div class="footer-fb"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
-                     <div class="footer-instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
-                 </div>
-             </div>
-             <div class="col-md-3 footer-navbar">
-                 <ul class="footer-chapter">
-                     <p><b>РОЗДІЛИ</b></p>
-                     <li><a href="#" style=" color: #333333">Вироби</a></li>
-                     <li><a href="#" style=" color: #333333">Про нас</a></li>
-                     <li><a href="#" style=" color: #333333">Блог</a></li>
-                     <li><a href="#" style=" color: #333333">Showroom</a></li>
-                     <li><a href="#" style=" color: #333333">Контакти</a></li>
-                 </ul>
-             </div>
-         <!--Mobile version only-->
-             <div class="col-md-3">
-                 <ul class="information">
-                     <p class="info"><b>ІНФОРМАЦІЯ</b></p>
-                     <li><a href="#"> Замовлення виробу</a></li>
-                     <li><a href="#"> Оплата і доставка</a></li>
-                     <li><a href="#"> Гарантія і сервіс</a></li>
-                     <li><a href="#"> Умови придбання</a></li>
-                     <li><a href="#"> Обмін та повернення</a></li>
+            <!--Mobile version only-->
+
+            <div class="col-md-3 follow-us">
+                <p><b>СЛІДКУЙТЕ ЗА НАМИ:</b></p>
+                <div class="footer-social-network">
+                    <div class="footer-fb"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
+                    <div class="footer-instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                </div>
+            </div>
+            <div class="col-md-3 footer-navbar">
+                <ul class="footer-chapter">
+                    <p><b>РОЗДІЛИ</b></p>
+                    <li><a href="#" style=" color: #333333">Вироби</a></li>
+                    <li><a href="#" style=" color: #333333">Про нас</a></li>
+                    <li><a href="#" style=" color: #333333">Блог</a></li>
+                    <li><a href="#" style=" color: #333333">Showroom</a></li>
+                    <li><a href="#" style=" color: #333333">Контакти</a></li>
                 </ul>
-             </div>
-             <div class="col-md-3 facebook">
-                 <p class="footer-facebook"><b>FACEBOOK</b></p>
-                 <div class="footer-btn">
-                 <button type="button" class="btn btn-primary btn-sm waves-light" mdbRippleRadius><i class="fa fa-thumbs-o-up mr-1" aria-hidden="true"></i>Like</button>
-                 <button type="button" class="btn btn-primary btn-sm waves-light" mdbRippleRadius>Submit</button>
-                 </div>
-                 <p>
-                     Подобається 3,6 млн людям. Приєднуйтесь та будьте першими поміж своїх друзів
-                 </p>
-             </div>
-             <div class="col-md-3 instagram">
-                 <p><b>INSTAGRAM</b></p>
-                 <div class="instagram-photo">
-                 <div class="row mb-2 pl-2">
-                     <div class="col-md-3 photo1 pr-0 pl-2">
-                     <img src="img/1-copy.jpg" class="img-fluid" alt="photo1">
-                     </div>
-                     <div class="col-md-3 photo2 pr-0 pl-2">
-                     <img src="img/2-copy.jpg" class="img-fluid" alt="photo2">
-                     </div>
-                     <div class="col-md-3 photo3 pr-0 pl-2">
-                     <img src="img/3-copy-2.jpg" class="img-fluid"  alt="photo3">
-                     </div>
-                 </div>
-                     <div class="row pl-2">
-                         <div class="col-md-3 photo4 pr-0 pl-2">
-                     <img src="img/1-copy.jpg" class="img-fluid" alt="photo4">
-                         </div>
-                         <div class="col-md-3 photo5 pr-0 pl-2" >
-                     <img src="img/2-copy.jpg" class="img-fluid" alt="photo5">
-                         </div>
-                         <div class="col-md-3 photo6 pr-0 pl-2">
-                     <img src="img/3-copy-2.jpg" class="img-fluid" alt="photo6">
-                         </div>
-                 </div>
-                 </div>
-             </div>
+            </div>
 
+            <!--Mobile version only-->
 
-         </div>
-     </div>
+            <div class="col-md-3">
+                <ul class="information">
+                    <p class="info"><b>ІНФОРМАЦІЯ</b></p>
+                    <li><a href="#"> Замовлення виробу</a></li>
+                    <li><a href="#"> Оплата і доставка</a></li>
+                    <li><a href="#"> Гарантія і сервіс</a></li>
+                    <li><a href="#"> Умови придбання</a></li>
+                    <li><a href="#"> Обмін та повернення</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 facebook">
+                <p class="footer-facebook"><b>FACEBOOK</b></p>
+                <div class="footer-btn">
+                    <button type="button" class="btn btn-primary btn-sm waves-light" mdbRippleRadius><i class="fa fa-thumbs-o-up mr-1" aria-hidden="true"></i>Like</button>
+                    <button type="button" class="btn btn-primary btn-sm waves-light" mdbRippleRadius>Submit</button>
+                </div>
+                <p>
+                    Подобається 3,6 млн людям. Приєднуйтесь та будьте першими поміж своїх друзів
+                </p>
+            </div>
+            <div class="col-md-3 instagram">
+                <p><b>INSTAGRAM</b></p>
+                <div class="instagram-photo">
+                    <div class="row mb-2 pl-2">
+                        <div class="col-md-3 photo1 pr-0 pl-2">
+                            <img src="img/1-copy.jpg" class="img-fluid" alt="photo1">
+                        </div>
+                        <div class="col-md-3 photo2 pr-0 pl-2">
+                            <img src="img/2-copy.jpg" class="img-fluid" alt="photo2">
+                        </div>
+                        <div class="col-md-3 photo3 pr-0 pl-2">
+                            <img src="img/3-copy-2.jpg" class="img-fluid"  alt="photo3">
+                        </div>
+                    </div>
+                    <div class="row pl-2">
+                        <div class="col-md-3 photo4 pr-0 pl-2">
+                            <img src="img/1-copy.jpg" class="img-fluid" alt="photo4">
+                        </div>
+                        <div class="col-md-3 photo5 pr-0 pl-2" >
+                            <img src="img/2-copy.jpg" class="img-fluid" alt="photo5">
+                        </div>
+                        <div class="col-md-3 photo6 pr-0 pl-2">
+                            <img src="img/3-copy-2.jpg" class="img-fluid" alt="photo6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <!--Footer links-->
+    <!--Footer links-->
 
-        <!--Copyright-->
+    <!--Copyright-->
 
     <div class="footer_copyright" style="text-align: center">
         <div class="container-fluid">
-           Copyright © 2018 bambet. Використання матеріалів без письмової згоди адміністрації сайту заборонено
+            Copyright © 2018 bambet. Використання матеріалів без письмової згоди адміністрації сайту заборонено
         </div>
     </div>
     <!--Copyright-->
 
- </footer>
+</footer>
 
-        <!--Footer-->
+<!--Footer-->
 
 </body>
 </html>
