@@ -26,7 +26,6 @@ body {
 }
 
 .nav-icons {
-    right: 50px;
     position: relative;
 }
 
@@ -156,25 +155,23 @@ body {
 }
 
 .nav-link .fa-facebook-official {
-    font-size: 21px;
+    font-size: 25px;
     margin-right: 12px;
 }
 
 .nav-link .fa-instagram {
-    font-size: 21px;
+    font-size: 25px;
 }
 
 .nav_language {
-    position: relative;
-    top: 4px;
-    left: 10%;
+    position: absolute;
 }
 
 .nav_language_RUS {
     position: relative;
-    bottom: 14px;
-    padding-left: 5px;
+    padding-left: 4px;
     height: 10px;
+
 
 }
 
@@ -182,6 +179,8 @@ body {
     border-right: 1px solid #d0cfcf;
     padding-right: 4px;
     height: 10px;
+    position: relative;
+
 }
 
 #carousel-example-1z {
@@ -792,7 +791,6 @@ body {
     background-repeat: no-repeat;
     text-align: center;
     position: relative;
-    background-size: 100%;
 }
 
 .border-article-line hr {
@@ -2171,6 +2169,10 @@ body {
 }
 
 @media screen and (max-width: 990px) {
+    .email-background-content{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
 
     .nav-info {
         display: none;
@@ -2242,23 +2244,11 @@ body {
 }
 
 @media screen and (max-width: 1149px) {
-    .email-background-content p {
-        padding-top: 5px;
-    }
 
-    .btn-subscribe-article {
-        padding-top: 15px;
-    }
 }
 
 @media screen and (max-width: 1069px) {
-    .btn-subscribe-article {
-        padding-top: 5px;
-    }
 
-    .email-background-content .input-form-article {
-        margin-top: 0px;
-    }
 
     .btn-subscribe-article span {
         font-size: 10px;
@@ -2279,6 +2269,9 @@ body {
 
 @media screen and (min-width: 770px) {
 
+    .footer-logo{
+        padding-left: 35px;
+    }
     .navigation-main {
     position: absolute;
     z-index: 2;
@@ -2295,9 +2288,6 @@ body {
         display: none;
     }
 
-    .footer-logo {
-        padding-left: 35px;
-    }
 
     .btn-example {
         display: none;

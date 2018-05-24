@@ -62,6 +62,7 @@
         <!--Navbar-->
 
         <nav class="navbar navbar-expand-md " id="nav-bar_menu">
+            <div class="container">
             <div class="nav_brand">
                 <a href="/" class="navbar-brand mr-0">
                     <img src="img/Bambet_logo_1.svg" height="40" class="img-responsive" alt="logo_nav">
@@ -69,7 +70,7 @@
             </div>
             <div class="nav_language" >
                         <a class="nav_language_UA" href="">UA</a>
-                        <a class="nav_language_RUS" href="" style="float: right">RUS</a>
+                        <a class="nav_language_RUS" href="">RUS</a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#exampleModal2">
                 <i class="fa fa-bars" aria-hidden="true"></i>
@@ -99,7 +100,9 @@
                     </ul>
                 </div>
             </div>
+            </div>
         </nav>
+
 
         <!--modal window-->
 
@@ -171,9 +174,9 @@
             <img src="img/mask-copy.jpg" class="img-fluid" alt="background-img-article" style="width: 100%">
         </div>
     </div>
-    <div class="container-fluid" id="article-main-content">
-        <div class="row">
-            <div class="col-md-1"></div>
+    <div id="article-main-content">
+    <div class="container" style="padding-left: 0px; padding-right: 0px">
+        <div class="row d-flex justify-content-center">
             <div class="col-md-7" id="article-side-content" style="background-color: white;">
                 <div class="article-furniture-header">
                     <p>
@@ -346,11 +349,12 @@
                 <div class="subscribe-email" style="text-align: center">
                     <div class="email-background-content">
                         <p class="h4-responsive">
-                            <b>Подпишитесь</b>
+                            <b style="font-weight: bold">Подпишитесь</b>
                             на нашу рассылку!
                         </p>
                         <div class="md-form input-form-article">
-                            <input mdbInputDirective placeholder="email" type="text" id="form58" class="form-control">
+                            <input mdbInputDirective  type="text" id="form58" class="form-control">
+                            <label for="form58" style="padding-left: 10px">Email</label>
                         </div>
                         <div class="btn-subscribe-article">
                             <button type="button" class="btn  btn-block btn-white waves-light"><span>ПОДПИСАТЬСЯ</span></button>
@@ -395,7 +399,8 @@
                             <br>на нашу рассылку!
                         </p>
                         <div class="md-form input-mobile-version-article">
-                            <input mdbInputDirective placeholder="Email" type="text"  class="form-control">
+                            <input mdbInputDirective  type="text" id="form60"  class="form-control">
+                            <label for="form60" style="padding-left: 10px">Email</label>
                         </div>
                         <div class="btn-mobile-version-article">
                             <button type="button" class="btn  btn-block btn-white waves-light"><span>ПОДПИСАТЬСЯ</span></button>
@@ -408,6 +413,7 @@
             </div>
         </div>
     </div>
+</div>
 </main>
 
 <!--Footer-->
@@ -450,7 +456,7 @@
             <!--Mobile version only-->
 
             <div class="col-md-3">
-                <ul class="information">
+                <ul class="information" style="padding-left: 0px">
                     <p class="info"><b>ІНФОРМАЦІЯ</b></p>
                     <li><a href="#"> Замовлення виробу</a></li>
                     <li><a href="#"> Оплата і доставка</a></li>
@@ -504,7 +510,7 @@
     <!--Copyright-->
 
     <div class="footer_copyright" style="text-align: center">
-        <div class="container-fluid">
+        <div class="container">
             Copyright © 2018 bambet. Використання матеріалів без письмової згоди адміністрації сайту заборонено
         </div>
     </div>
