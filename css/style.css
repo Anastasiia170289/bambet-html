@@ -106,6 +106,23 @@ body {
     height: 400px;
 }
 
+#popup-carousel-items-prev {
+    background-image: url(../img/arrow-copy-3.svg);
+}
+#popup-carousel-items-next {
+    background-image: url(../img/arrow-copy.svg);
+}
+#carousel-inner-items p {
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #9e9e9e;
+    margin-top: 0px;
+
+}
+
+
 .mask {
     padding-right: 50px;
 }
@@ -444,10 +461,49 @@ body {
 
 .about-item {
     background-color: #f7f7f7;
-    margin-top: 42px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
+.order-color-cloth p {
+    line-height: 1;
+    letter-spacing: 0.2px;
+    text-align: left;
+    font-size: 14px;
+    color: #8e8e8e;
+}
+#order-color-text {
+    line-height: 0.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+#table-item-page td {
+      font-size: 14px;
+      line-height: 2.86;
+      letter-spacing: 0.3px;
+      text-align: left;
+      color: #999999;
+}
+
+#table-item-page th {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 2.86;
+      letter-spacing: 0.3px;
+      text-align: left;
+      color: #000000;
+}
+.table-sm {
+    border-bottom: 1px solid lightgray;
+
+
+}
+
+
 
 .about-item p {
     font-size: 18px;
@@ -1547,6 +1603,45 @@ body {
 
     /* Style Item_page*/
 
+    #table-item-page td {
+        font-size: 12px;
+        line-height: 1.33;
+    }
+    #table-item-page th {
+        font-size: 12px;
+        line-height: 1.33;
+    }
+
+    .order-color-cloth {
+        display: none;
+    }
+    .order-color-cloth-mobile-version {
+        margin-top: 60px;
+        margin-bottom: 61px;
+    }
+    .order-color-cloth-mobile-version img {
+        display: block;
+        margin: 0 auto;
+    }
+    .order-color-cloth-mobile-version p {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        line-height: 1;
+        letter-spacing: 0.2px;
+        font-size: 14px;
+        color: #8e8e8e;
+    }
+
+    #order-color-text-mobile {
+          line-height: 1.25;
+          letter-spacing: 0.3px;
+          text-align: center;
+        font-size: 24px;
+        color: black;
+        font-weight: bolder;
+    }
+
     .order-button {
         background-color: #cab08d;
         height: 56px;
@@ -1571,18 +1666,10 @@ body {
         color: white;
     }
 
-    .order-color-cloth {
-        display: none;
-    }
+ .size-item-photo{
+     display: none;
+ }
 
-    .order-color-cloth-mobile-version a {
-        width: 48px;
-        height: 48px;
-        display: block;
-        text-align: center;
-
-
-    }
 
     .different-color .col-3 {
         padding-right: 0px;
@@ -1674,6 +1761,7 @@ body {
     #button-order {
         display: none;
     }
+
 
     /* Style pop-up*/
 
@@ -2320,6 +2408,26 @@ body {
 
     /* Style Item_page*/
 
+    #table-item-page {
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+    .table-sm {
+        margin-bottom: 0px;
+    }
+    #carouselExampleControls-items img {
+    width: 350px;
+    height: 350px;
+}
+
+   #carouselExampleControls-items {
+        width: 500px;
+       height: 460px;
+       position: absolute;
+
+    }
+
+
     .order-button {
         display: none;
     }
@@ -2337,14 +2445,34 @@ body {
         margin-right: 30px;
     }
 
-    .order-color-cloth a {
-        width: 48px;
-        height: 48px;
-        margin-right:18px;
+    .second-row-item-page {
+        margin-top: 40px;
+        margin-bottom: 90px;
     }
 
-    .order-color-cloth {
-        margin-top: 42px;
+    .size-item-photo-mob {
+        display: none;
+    }
+    .order-color-cloth img{
+        width: 85px;
+        height: 85px;
+        display: block;
+        margin: 0 auto;
+    }
+    .order-color-cloth a {
+        width: 135px;
+        height: 159px;
+    }
+    .item-page-section {
+        margin-right: 20px;
+    }
+    .order-color-cloth p {
+        text-align: center;
+        margin-top: 9px;
+    }
+    .section-link-items {
+        position: relative;
+        top: 15%;
     }
 
     .order-color-cloth-mobile-version {
@@ -2572,7 +2700,31 @@ body {
     .panel {
         display: none;
     }
+
+    .order-color-link:hover {
+     object-fit: cover;
+     filter: grayscale(20%) contrast(120%);
+     box-shadow: 5px 5px 5px 0 rgba(0,0,0,.2);
+      display: block;
+      transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+      margin-top: -10px;
+      border: 1px solid #d7d7d7;
+
 }
+    .order-color-link p:hover {
+    color: black;
+}
+    .order-color-cloth{
+        margin-top: 90px;
+        margin-bottom: 91px;
+    }
+
+.order-color-link img {
+     box-shadow: 1px 1px 10px 0 rgba(0,0,0,.1);
+}
+}
+
+
 
 
 
