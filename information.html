@@ -159,6 +159,9 @@
 <main>
     <div class="container">
         <h2 style="text-align: center" class="inform-header">Інформація</h2>
+
+        <!--Mobile-version-->
+
         <div class="content-info">
             <select class="custom-select" style="border: 1px solid #cab08d">
                 <option value="" disabled selected>Choose your option</option>
@@ -167,17 +170,16 @@
                 <option value="3">Option 3</option>
             </select>
 
+            <!--Mobile-version-->
+
         </div>
-        <div class="nav-info">
-            <nav class=" navbar navbar-expand-lg navbar-default" id="navbarInfo">
-                <span class=" navbar-brand-info">Оплата і доставка</span>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="border: none; background-color: white; ">
-                    <i class="fa fa-sort-down arrow-down-info" aria-hidden="true" ></i>
-                </button>
-                <div class=" navbar-collapse " id="navbarTogglerDemo02"  >
-                    <ul class=" nav navbar-nav   mx-auto text-center list-info" >
+        <div class="nav-info d-flex justify-content-center " id="mob-version-nav-info">
+            <nav class=" navbar navbar-expand-lg navbar-default" id="navbarInfo" style="text-align: center">
+
+                <div  id="navbarTogglerDemo02"  >
+                    <ul class=" nav navbar-nav   mx-auto text-center list-info" style="text-transform: uppercase">
                         <li class="nav-item nav-item-info ">
-                            <a class="nav-link nav-item-info" href="#">Замовлення виробу</a>
+                            <a class="nav-link" href="#">Замовлення виробу</a>
                         </li>
                         <li class="nav-item nav-item-info active">
                             <a class="nav-link" href="#">Оплата і доставка</a>
@@ -219,6 +221,111 @@
 </main>
 
 <!--Main layout-->
+
+<!--Footer-->
+
+<footer class="page-footer">
+
+    <!-- Footer links-->
+
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-3 footer-address">
+                <img src="img/photoeditorsdk-export.png" class="img-fluid footer-logo">
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Кременчук, вул.Троїцька,61/52</span></li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i><span>+38 (068) 011 35 35</span></li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i><span>info@bambet.com.ua</span></li>
+                </ul>
+            </div>
+
+            <!--Mobile version only-->
+
+            <div class="col-md-3 follow-us">
+                <p><b>СЛІДКУЙТЕ ЗА НАМИ:</b></p>
+                <div class="footer-social-network">
+                    <div class="footer-fb"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
+                    <div class="footer-instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></div>
+                </div>
+            </div>
+            <div class="col-md-3 footer-navbar">
+                <ul class="footer-chapter">
+                    <p><b>РОЗДІЛИ</b></p>
+                    <li><a href="#" style=" color: #333333">Вироби</a></li>
+                    <li><a href="#" style=" color: #333333">Про нас</a></li>
+                    <li><a href="#" style=" color: #333333">Блог</a></li>
+                    <li><a href="#" style=" color: #333333">Showroom</a></li>
+                    <li><a href="#" style=" color: #333333">Контакти</a></li>
+                </ul>
+            </div>
+
+            <!--Mobile version only-->
+
+            <div class="col-md-3">
+                <ul class="information">
+                    <p class="info"><b>ІНФОРМАЦІЯ</b></p>
+                    <li><a href="#"> Замовлення виробу</a></li>
+                    <li><a href="#"> Оплата і доставка</a></li>
+                    <li><a href="#"> Гарантія і сервіс</a></li>
+                    <li><a href="#"> Умови придбання</a></li>
+                    <li><a href="#"> Обмін та повернення</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 facebook">
+                <p class="footer-facebook"><b>FACEBOOK</b></p>
+                <div class="footer-btn">
+                    <button type="button" class="btn btn-primary btn-sm waves-light" mdbRippleRadius><i class="fa fa-thumbs-o-up mr-1" aria-hidden="true"></i>Like</button>
+                    <button type="button" class="btn btn-primary btn-sm waves-light" mdbRippleRadius>Submit</button>
+                </div>
+                <p>
+                    Подобається 3,6 млн людям. Приєднуйтесь та будьте першими поміж своїх друзів
+                </p>
+            </div>
+            <div class="col-md-3 instagram">
+                <p><b>INSTAGRAM</b></p>
+                <div class="instagram-photo">
+                    <div class="row mb-2 pl-2">
+                        <div class="col-md-3 photo1 pr-0 pl-2">
+                            <img src="img/1-copy.jpg" class="img-fluid" alt="photo1">
+                        </div>
+                        <div class="col-md-3 photo2 pr-0 pl-2">
+                            <img src="img/2-copy.jpg" class="img-fluid" alt="photo2">
+                        </div>
+                        <div class="col-md-3 photo3 pr-0 pl-2">
+                            <img src="img/3-copy-2.jpg" class="img-fluid"  alt="photo3">
+                        </div>
+                    </div>
+                    <div class="row pl-2">
+                        <div class="col-md-3 photo4 pr-0 pl-2">
+                            <img src="img/1-copy.jpg" class="img-fluid" alt="photo4">
+                        </div>
+                        <div class="col-md-3 photo5 pr-0 pl-2" >
+                            <img src="img/2-copy.jpg" class="img-fluid" alt="photo5">
+                        </div>
+                        <div class="col-md-3 photo6 pr-0 pl-2">
+                            <img src="img/3-copy-2.jpg" class="img-fluid" alt="photo6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer links-->
+
+    <!--Copyright-->
+
+    <div class="footer_copyright" style="text-align: center">
+        <div class="container">
+            Copyright © 2018 bambet. Використання матеріалів без письмової згоди адміністрації сайту заборонено
+        </div>
+    </div>
+    <!--Copyright-->
+
+</footer>
+
+<!--Footer-->
+
 
 </body>
 </html>
