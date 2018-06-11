@@ -89,7 +89,7 @@ body {
 
 .examples {
     padding-top: 60px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
     background-color: #f7f7f7
 }
 
@@ -140,11 +140,15 @@ body {
     color: #ffffff;
 }
 
+#main_content {
+    padding-top: 12px;
+}
+
 #main_content p {
     font-size: 16px;
     font-weight: normal;
-    line-height: 1.5;
-    letter-spacing: 0.3px;
+    line-height: 1.6;
+    letter-spacing: 0.4px;
     text-align: left;
     color: #333333;
 }
@@ -166,6 +170,11 @@ body {
     text-align: center;
     color: #000000;
 }
+
+.main_text.main_text--large p {
+    line-height: 1.6;
+}
+
 
 .nav_language a:hover {
     color: rgba(0, 0, 0, 0.3);
