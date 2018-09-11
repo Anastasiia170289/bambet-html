@@ -2209,6 +2209,11 @@ body {
     .phone-col-contacts, .write-us-col-contacts, .our-items-col-contacts {
         border-bottom: 2px solid #cab08d;
     }
+    .phone-col-contacts {
+         padding-right: 0px;
+        padding-left: 0px;
+    }
+
 
     .address-contacts {
         padding-top: 30px;
